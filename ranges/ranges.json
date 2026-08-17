@@ -1,0 +1,5173 @@
+{
+  "name": "default_name",
+  "path": [
+    "default_name"
+  ],
+  "order": 0,
+  "expanded": true,
+  "type": 0,
+  "color": 0,
+  "children": [
+    {
+      "name": "Mes Ranges NL 10-",
+      "path": [
+        "default_name",
+        "Mes Ranges NL 10-"
+      ],
+      "order": 3,
+      "expanded": true,
+      "type": 0,
+      "color": 0,
+      "children": [
+        {
+          "name": "Open Raise",
+          "path": [
+            "default_name",
+            "Mes Ranges NL 10-",
+            "Open Raise"
+          ],
+          "order": 0,
+          "expanded": true,
+          "type": 0,
+          "color": 0,
+          "children": [
+            {
+              "name": "UTG",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "Open Raise",
+                "UTG"
+              ],
+              "order": 0,
+              "expanded": true,
+              "type": 1,
+              "color": 0,
+              "children": [
+                {
+                  "name": "raise_standard",
+                  "path": [
+                    "default_name",
+                    "Mes Ranges NL 10-",
+                    "Open Raise",
+                    "UTG",
+                    "raise_standard"
+                  ],
+                  "order": 0,
+                  "expanded": false,
+                  "type": 2,
+                  "color": 10,
+                  "range": "AA-44,AKs-A2s,KQs-KTs,QJs,AKo-AJo,KQo",
+                  "marked_cells": [
+                    {
+                      "hand": "AA",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "AKs",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "AQs",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "AJs",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "ATs",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A9s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A8s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A7s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A6s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A5s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A4s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A3s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A2s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "AKo",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "KK",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "KQs",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "KJs",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "KTs",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "AQo",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "KQo",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "QQ",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "QJs",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "AJo",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "JJ",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "JTo",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "TT",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "T9o",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "99",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "98o",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "88",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "87o",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "77",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "76o",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "66",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "65o",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "55",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "54o",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "44",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "43o",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    }
+                  ],
+                  "palette": [
+                    10
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "HJ",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "Open Raise",
+                "HJ"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "children": [
+                {
+                  "name": "raise_standard",
+                  "path": [
+                    "default_name",
+                    "Mes Ranges NL 10-",
+                    "Open Raise",
+                    "HJ",
+                    "raise_standard"
+                  ],
+                  "order": 0,
+                  "expanded": false,
+                  "type": 2,
+                  "color": 10,
+                  "range": "AA-33,AKs-A2s,KQs-KTs,QJs-QTs,JTs,T9s,AKo-ATo,KQo-KJo",
+                  "marked_cells": [
+                    {
+                      "hand": "AA",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "AKs",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "AQs",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "AJs",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "ATs",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A9s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A8s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A7s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A6s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A5s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A4s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A3s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A2s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "AKo",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "KK",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "KQs",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "KJs",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "KTs",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "AQo",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "KQo",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "QQ",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "QJs",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "QTs",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "AJo",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "KJo",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "JJ",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "JTs",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "ATo",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "TT",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "T9s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "T9o",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "99",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "98o",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "88",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "87s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "77",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "76s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "66",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "65s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "55",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "54s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "44",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "43o",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "33",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    }
+                  ],
+                  "palette": [
+                    10
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "CO",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "Open Raise",
+                "CO"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "children": [
+                {
+                  "name": "raise_standard",
+                  "path": [
+                    "default_name",
+                    "Mes Ranges NL 10-",
+                    "Open Raise",
+                    "CO",
+                    "raise_standard"
+                  ],
+                  "order": 0,
+                  "expanded": false,
+                  "type": 2,
+                  "color": 10,
+                  "range": "AA-22,AKs-A2s,KQs-K5s,QJs-Q8s,JTs-J8s,T9s-T8s,98s,87s,AKo-A8o,KQo-KTo,QJo-QTo,JTo",
+                  "marked_cells": [
+                    {
+                      "hand": "AA",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "AKs",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "AQs",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "AJs",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "ATs",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A9s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A8s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A7s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A6s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A5s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A4s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A3s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A2s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "AKo",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "KK",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "KQs",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "KJs",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "KTs",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "K9s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "K8s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "K7s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "K6s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "K5s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "AQo",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "KQo",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "QQ",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "QJs",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "QTs",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "Q9s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "Q8s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "AJo",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "KJo",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "QJo",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "JJ",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "JTs",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "J9s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "J8s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "ATo",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "KTo",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "QTo",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "JTo",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "TT",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "T9s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "T8s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A9o",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "99",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "98s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A8o",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "98o",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "88",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "87s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A7o",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "77",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "76o",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "66",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "65o",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "55",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "44",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "43s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "33",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "32s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "22",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    }
+                  ],
+                  "palette": [
+                    10
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "BTN",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "Open Raise",
+                "BTN"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "children": [
+                {
+                  "name": "raise_standard",
+                  "path": [
+                    "default_name",
+                    "Mes Ranges NL 10-",
+                    "Open Raise",
+                    "BTN",
+                    "raise_standard"
+                  ],
+                  "order": 0,
+                  "expanded": false,
+                  "type": 2,
+                  "color": 10,
+                  "range": "AA-22,AKs-A2s,KQs-K2s,QJs-Q3s,JTs-J7s,T9s-T7s,98s-97s,87s-86s,76s-75s,65s,54s,AKo-A2o,KQo-K7o,QJo-Q8o,JTo-J9o,T9o-T8o",
+                  "marked_cells": [
+                    {
+                      "hand": "AA",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "AKs",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "AQs",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "AJs",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "ATs",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A9s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A8s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A7s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A6s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A5s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A4s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A3s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A2s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "AKo",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "KK",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "KQs",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "KJs",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "KTs",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "K9s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "K8s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "K7s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "K6s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "K5s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "K4s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "K3s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "K2s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "AQo",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "KQo",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "QQ",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "QJs",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "QTs",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "Q9s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "Q8s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "Q7s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "Q6s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "Q5s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "Q4s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "Q3s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "AJo",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "KJo",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "QJo",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "JJ",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "JTs",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "J9s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "J8s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "J7s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "ATo",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "KTo",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "QTo",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "JTo",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "TT",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "T9s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "T8s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "T7s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A9o",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "K9o",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "Q9o",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "J9o",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "T9o",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "99",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "98s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "97s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A8o",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "K8o",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "Q8o",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "T8o",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "98o",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "88",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "87s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "86s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A7o",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "K7o",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "77",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "76s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "75s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A6o",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "66",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "65s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A5o",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "55",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "54s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A4o",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "44",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A3o",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "43o",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "33",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "32s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A2o",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "22",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    }
+                  ],
+                  "palette": [
+                    10
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "SB",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "Open Raise",
+                "SB"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "children": [
+                {
+                  "name": "raise_standard",
+                  "path": [
+                    "default_name",
+                    "Mes Ranges NL 10-",
+                    "Open Raise",
+                    "SB",
+                    "raise_standard"
+                  ],
+                  "order": 0,
+                  "expanded": false,
+                  "type": 2,
+                  "color": 10,
+                  "range": "AA-22,AKs-A2s,KQs-K2s,QJs-Q2s,JTs-J6s,T9s-T6s,98s-96s,87s-85s,76s-75s,65s-64s,54s,43s,AKo-A3o,KQo-K8o,QJo-Q8o,JTo-J8o,T9o-T8o,98o",
+                  "marked_cells": [
+                    {
+                      "hand": "AA",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "AKs",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "AQs",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "AJs",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "ATs",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A9s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A8s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A7s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A6s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A5s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A4s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A3s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A2s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "AKo",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "KK",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "KQs",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "KJs",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "KTs",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "K9s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "K8s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "K7s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "K6s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "K5s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "K4s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "K3s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "K2s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "AQo",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "KQo",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "QQ",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "QJs",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "QTs",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "Q9s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "Q8s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "Q7s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "Q6s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "Q5s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "Q4s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "Q3s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "Q2s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "AJo",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "KJo",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "QJo",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "JJ",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "JTs",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "J9s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "J8s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "J7s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "J6s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "ATo",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "KTo",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "QTo",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "JTo",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "TT",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "T9s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "T8s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "T7s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "T6s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A9o",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "K9o",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "Q9o",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "J9o",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "T9o",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "99",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "98s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "97s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "96s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A8o",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "K8o",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "Q8o",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "J8o",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "T8o",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "98o",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "88",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "87s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "86s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "85s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A7o",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "J7o",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "T7o",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "77",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "76s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "75s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A6o",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "66",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "65s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "64s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A5o",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "55",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "54s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A4o",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "44",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "43s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "A3o",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "33",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "32s",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    },
+                    {
+                      "hand": "22",
+                      "color": 10,
+                      "weight": 1.0,
+                      "n": 1
+                    }
+                  ],
+                  "palette": [
+                    10
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Défense de blinds",
+          "path": [
+            "default_name",
+            "Mes Ranges NL 10-",
+            "Défense de blinds"
+          ],
+          "order": 0,
+          "expanded": true,
+          "type": 0,
+          "color": 0,
+          "children": [
+            {
+              "name": "BB vs UTG",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "Défense de blinds",
+                "BB vs UTG"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "TT-22,AQs-A2s,KQs-K8s,QJs-Q8s,JTs-J8s,T9s-T8s,98s,87s,76s,65s,AQo-ATo,KQo-KJo,QJo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "BB vs HJ",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "Défense de blinds",
+                "BB vs HJ"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "TT-22,AQs-A2s,KQs-K8s,QJs-Q8s,JTs-J8s,T9s-T8s,98s,87s,76s,65s,AQo-ATo,KQo-KJo,QJo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "BB vs CO",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "Défense de blinds",
+                "BB vs CO"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "99-22,AJs-A2s,KQs-K2s,QJs-Q8s,JTs-J8s,T9s-T7s,98s-97s,87s-86s,76s-75s,65s-64s,54s-53s,43s,AJo-A9o,KJo-KTo,QJo-QTo,JTo,[50]TT,AQo,KQo[/50]",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "BB vs BTN",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "Défense de blinds",
+                "BB vs BTN"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "88-22,A9s-A2s,KJs-K2s,QJs-Q2s,JTs-J5s,T9s-T6s,98s-96s,87s-85s,76s-74s,65s-64s,54s-53s,43s,A9o-A6o,KJo-K8o,QJo-Q8o,JTo-J8o,T9o-T8o,98o,87o,[50]AJo-ATo,A5o-A4o,KQo[/50]",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "BB vs SB",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "Défense de blinds",
+                "BB vs SB"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "88-22,A9s-A2s,K9s-K2s,Q9s-Q2s,J9s-J7s,T8s-T7s,97s-96s,86s-84s,75s-74s,64s-63s,53s-52s,43s-42s,32s,A9o-A6o,KJo-KTo,QJo-QTo,JTo,T9o,98o,87o,76o,[50]99,KTs,QJs-QTs,JTs,J6s-J2s,T9s,T6s-T2s,98s,95s-94s,87s,76s,65s,54s,AJo-ATo,A5o-A2o,K9o-K5o,Q9o-Q8o,J9o-J8o,T8o[/50]",
+              "marked_cells": [],
+              "palette": []
+            }
+          ]
+        },
+        {
+          "name": "3bet",
+          "path": [
+            "default_name",
+            "Mes Ranges NL 10-",
+            "3bet"
+          ],
+          "order": 0,
+          "expanded": true,
+          "type": 0,
+          "color": 0,
+          "children": [
+            {
+              "name": "BB vs UTG",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "3bet",
+                "BB vs UTG"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-JJ,AKs,AKo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "BB vs HJ",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "3bet",
+                "BB vs HJ"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-JJ,AKs,AKo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "BB vs CO",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "3bet",
+                "BB vs CO"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-JJ,AKs-AQs,AKo,[50]TT,AQo,KQo[/50]",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "BB vs BTN",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "3bet",
+                "BB vs BTN"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-99,AKs-ATs,KQs,AKo-AQo,[50]AJo-ATo,A5o-A4o,KQo[/50]",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "BB vs SB",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "3bet",
+                "BB vs SB"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-TT,AKs-ATs,KQs-KJs,AKo-AQo,KQo,[50]99,KTs,QJs-QTs,JTs,J6s-J2s,T9s,T6s-T2s,98s,95s-94s,87s,76s,65s,54s,AJo-ATo,A5o-A2o,K9o-K5o,Q9o-Q8o,J9o-J8o,T8o[/50]",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "SB vs BTN",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "3bet",
+                "SB vs BTN"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-44,AKs-A2s,KQs-K9s,QJs-QTs,JTs,T9s,98s,87s,76s,65s,AKo-ATo,KQo-KJo,QJo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "SB vs CO",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "3bet",
+                "SB vs CO"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-77,AKs-A9s,A5s-A3s,KQs-KTs,QJs,AKo-AJo,KQo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "SB vs HJ",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "3bet",
+                "SB vs HJ"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-99,AKs-ATs,A5s-A3s,KQs-KJs,AKo-AQo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "SB vs UTG",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "3bet",
+                "SB vs UTG"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-99,AKs-AJs,KQs,AKo-AQo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "BTN vs CO",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "3bet",
+                "BTN vs CO"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-66,AKs-A2s,KQs-K9s,QJs-Q9s,JTs-J9s,T9s,98s,AKo-ATo,KQo-KJo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "BTN vs HJ",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "3bet",
+                "BTN vs HJ"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-99,AKs-ATs,A5s-A3s,KQs-KJs,AKo-AQo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "BTN vs UTG",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "3bet",
+                "BTN vs UTG"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-TT,AKs-AJs,KQs,AKo-AQo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "CO vs HJ",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "3bet",
+                "CO vs HJ"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-TT,AKs-ATs,A5s-A3s,KQs,AKo-AQo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "CO vs UTG",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "3bet",
+                "CO vs UTG"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-TT,AKs-AJs,KQs,AKo-AQo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "HJ vs UTG",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "3bet",
+                "HJ vs UTG"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-TT,AKs-AJs,AKo-AQo",
+              "marked_cells": [],
+              "palette": []
+            }
+          ]
+        },
+        {
+          "name": "Call 3bet",
+          "path": [
+            "default_name",
+            "Mes Ranges NL 10-",
+            "Call 3bet"
+          ],
+          "order": 0,
+          "expanded": true,
+          "type": 0,
+          "color": 0,
+          "children": [
+            {
+              "name": "SB vs BB",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "Call 3bet",
+                "SB vs BB"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "99-33,AJs-A8s,A5s-A3s,KQs-KTs,QJs-QTs,JTs,T9s,98s,87s,AQo,KQo,[50]AQs,K9s,Q9s,J9s,AJo-ATo,KJo[/50]",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "BTN vs BB",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "Call 3bet",
+                "BTN vs BB"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "TT-44,AQs-A9s,KQs-KTs,QJs-QTs,JTs,T9s,AQo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "BTN vs SB",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "Call 3bet",
+                "BTN vs SB"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "99-22,AJs-A9s,KQs-KTs,QJs-QTs,JTs-J9s,T9s,98s,AQo-AJo,KQo,[50]TT,AQs,A5s-A3s[/50]",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "CO vs BB",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "Call 3bet",
+                "CO vs BB"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "JJ-55,AQs",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "CO vs SB",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "Call 3bet",
+                "CO vs SB"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "TT-44,AQs-ATs,KQs-KJs,JTs,T9s,AQo,[50]JJ[/50]",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "CO vs BTN",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "Call 3bet",
+                "CO vs BTN"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "TT-66,AQs-ATs,KQs-KJs,JTs,T9s",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "HJ vs BB",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "Call 3bet",
+                "HJ vs BB"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "JJ-55,AQs",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "UTG vs BB",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "Call 3bet",
+                "UTG vs BB"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "JJ-55,AQs",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "HJ vs SB",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "Call 3bet",
+                "HJ vs SB"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "JJ-55,AQs-AJs,KQs",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "UTG vs SB",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "Call 3bet",
+                "UTG vs SB"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "JJ-55,AQs-AJs,KQs",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "HJ vs BTN",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "Call 3bet",
+                "HJ vs BTN"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "JJ-88",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "HJ vs CO",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "Call 3bet",
+                "HJ vs CO"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "JJ-88",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "UTG vs BTN",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "Call 3bet",
+                "UTG vs BTN"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "JJ-88",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "UTG vs CO",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "Call 3bet",
+                "UTG vs CO"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "JJ-88",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "UTG vs HJ",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "Call 3bet",
+                "UTG vs HJ"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "JJ-88",
+              "marked_cells": [],
+              "palette": []
+            }
+          ]
+        },
+        {
+          "name": "4bet",
+          "path": [
+            "default_name",
+            "Mes Ranges NL 10-",
+            "4bet"
+          ],
+          "order": 0,
+          "expanded": true,
+          "type": 0,
+          "color": 0,
+          "children": [
+            {
+              "name": "SB vs BB",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "4bet",
+                "SB vs BB"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-TT,AKs,A7s-A6s,A2s,K8s,AKo,[50]AQs,K9s,Q9s,J9s,AJo-ATo,KJo[/50]",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "BTN vs BB",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "4bet",
+                "BTN vs BB"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-JJ,AKs,A8s-A2s,K9s,AKo,AJo,KQo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "BTN vs SB",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "4bet",
+                "BTN vs SB"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-JJ,AKs,A8s-A6s,K9s,Q9s,AKo,ATo,KJo,[50]TT,AQs,A5s-A3s[/50]",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "CO vs BB",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "4bet",
+                "CO vs BB"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-QQ,AKs,AKo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "CO vs SB",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "4bet",
+                "CO vs SB"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-QQ,AKs,A9s,A5s-A3s,KTs,AKo,AJo,KQo,[50]JJ[/50]",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "CO vs BTN",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "4bet",
+                "CO vs BTN"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-JJ,AKs,A5s-A3s,KTs-K9s,AKo-AJo,KQo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "HJ vs BB",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "4bet",
+                "HJ vs BB"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-QQ,AKs,AKo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "HJ vs SB",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "4bet",
+                "HJ vs SB"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-QQ,AKs,ATs,A5s-A3s,KJs,AKo-AQo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "HJ vs BTN",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "4bet",
+                "HJ vs BTN"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-QQ,AKs-ATs,KQs-KJs,AKo-AQo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "HJ vs CO",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "4bet",
+                "HJ vs CO"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-QQ,AKs-ATs,KQs-KJs,AKo-AQo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "UTG vs BB",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "4bet",
+                "UTG vs BB"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-QQ,AKs,AKo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "UTG vs SB",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "4bet",
+                "UTG vs SB"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-QQ,AKs,ATs,A5s-A3s,KJs,AKo-AQo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "UTG vs BTN",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "4bet",
+                "UTG vs BTN"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-QQ,AKs-ATs,KQs-KJs,AKo-AQo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "UTG vs CO",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "4bet",
+                "UTG vs CO"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-QQ,AKs-ATs,KQs-KJs,AKo-AQo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "UTG vs HJ",
+              "path": [
+                "default_name",
+                "Mes Ranges NL 10-",
+                "4bet",
+                "UTG vs HJ"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-QQ,AKs-ATs,KQs-KJs,AKo-AQo",
+              "marked_cells": [],
+              "palette": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mes ranges NL 25 - 50",
+      "path": [
+        "default_name",
+        "Mes ranges NL 25 - 50"
+      ],
+      "order": 3,
+      "expanded": true,
+      "type": 0,
+      "color": 0,
+      "children": [
+        {
+          "name": "OR",
+          "path": [
+            "default_name",
+            "Mes ranges NL 25 - 50",
+            "OR"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 0,
+          "color": 0,
+          "children": [
+            {
+              "name": "UTG",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "OR",
+                "UTG"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-44,AKs-A2s,KQs-KTs,QJs,JTs,AKo-ATo,KQo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "HJ",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "OR",
+                "HJ"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-33,AKs-A2s,KQs-KTs,QJs-QTs,JTs,T9s,AKo-ATo,KQo-KJo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "CO",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "OR",
+                "CO"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-22,AKs-A2s,KQs-K5s,QJs-Q8s,JTs-J8s,T9s-T8s,98s,87s,76s,AKo-A8o,KQo-KTo,QJo-QTo,JTo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "BTN",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "OR",
+                "BTN"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-22,AKs-A2s,KQs-K2s,QJs-Q3s,JTs-J6s,T9s-T6s,98s-96s,87s-86s,76s-75s,65s,54s,AKo-A2o,KQo-K9o,QJo-Q9o,JTo-J9o,T9o-T8o",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "SB",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "OR",
+                "SB"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA,KK,QQ,JJ,TT,99,88,77,66,55,44,33,22,AK,AQ,AJ,AT,A9,A8,A7,A6s,A5,A4s,A3s,A2s,KQ,KJ,KT,K9,K8,K7s,K6s,K5s,K4s,K3s,K2s,QJ,QT,Q9,Q8s,Q7s,Q6s,Q5s,Q4s,Q3s,Q2s,JT,J9,J8s,J7s,T9,T8s,T7s,98,97s,87s,86s,76s,75s,65s,54s,43s",
+              "marked_cells": [],
+              "palette": []
+            }
+          ]
+        },
+        {
+          "name": "Call",
+          "path": [
+            "default_name",
+            "Mes ranges NL 25 - 50",
+            "Call"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 0,
+          "color": 0,
+          "children": [
+            {
+              "name": "BB vs SB",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "Call",
+                "BB vs SB"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "77-22,A9s-A6s,A2s,K9s-K7s,K5s-K2s,QTs-Q2s,J9s-J8s,T8s-T7s,97s-96s,86s-84s,75s-73s,64s-63s,53s-52s,43s-42s,32s,ATo-A8o,A5o-A4o,KJo-KTo,QJo-QTo,JTo,T9o,98o,87o,76o,65o,[50]99-88,A5s-A3s,KTs,K6s,QJs,JTs,J7s-J2s,T9s,T6s-T2s,98s,95s-93s,87s,76s,65s,54s,AJo,A7o-A6o,A3o-A2o,K9o-K5o,Q9o-Q8o,J9o-J8o,T8o[/50]",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "BB vs BTN",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "Call",
+                "BB vs BTN"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "77-22,A8s-A6s,A2s,K8s-K2s,Q8s-Q2s,J7s-J6s,T7s-T6s,97s-96s,86s-85s,75s-74s,64s-63s,53s,43s,A9o-A3o,KTo-K7o,QJo-Q8o,JTo-J8o,T9o-T8o,98o,87o,76o,[50]99-88,ATs-A9s,A5s-A3s,KTs-K9s,QTs-Q9s,98s,87s,76s,65s,54s,AJo-ATo,KQo-KJo[/50]",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "BB vs HJ",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "Call",
+                "BB vs HJ"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "TT-22,ATs-A2s,KQs-K2s,QJs-Q8s,JTs-J8s,T9s-T7s,98s-97s,87s-86s,76s-75s,65s-64s,54s,43s,AJo-A9o,KQo-KTo,QJo-QTo,JTo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "BB vs CO",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "Call",
+                "BB vs CO"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "99-22,A9s-A2s,KTs-K2s,QJs-Q8s,JTs-J7s,T9s-T7s,98s-96s,87s-85s,76s-75s,65s-64s,54s-53s,43s,ATo-A8o,KQo-KTo,QJo-QTo,JTo,[50]TT,ATs,KJs,AJo[/50]",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "BB vs UTG",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "Call",
+                "BB vs UTG"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "TT-22,AJs-A2s,KQs-K7s,QJs-Q8s,JTs-J8s,T9s-T8s,98s-97s,87s,76s,65s,54s,43s,AJo-ATo,KQo-KTo,QJo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "BTN vs CO avec Fish en blinds",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "Call",
+                "BTN vs CO avec Fish en blinds"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "99,88,77,66,55,44,33,22,JTs,T9s,98s,87s,76s,65s,54s,43s",
+              "marked_cells": [],
+              "palette": []
+            }
+          ]
+        },
+        {
+          "name": "3bet",
+          "path": [
+            "default_name",
+            "Mes ranges NL 25 - 50",
+            "3bet"
+          ],
+          "order": 0,
+          "expanded": true,
+          "type": 0,
+          "color": 0,
+          "children": [
+            {
+              "name": "BB vs SB",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "3bet",
+                "BB vs SB"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-TT,AKs-ATs,KQs-KJs,AKo-AQo,KQo,[50]99-88,A5s-A3s,KTs,K6s,QJs,JTs,J7s-J2s,T9s,T6s-T2s,98s,95s-93s,87s,76s,65s,54s,AJo,A7o-A6o,A3o-A2o,K9o-K5o,Q9o-Q8o,J9o-J8o,T8o[/50]",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "BB vs BTN",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "3bet",
+                "BB vs BTN"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-TT,AKs-AJs,KQs-KJs,QJs,JTs-J8s,J5s-J2s,T9s-T8s,AKo-AQo,[50]99-88,ATs-A9s,A5s-A3s,KTs-K9s,QTs-Q9s,98s,87s,76s,65s,54s,AJo-ATo,KQo-KJo[/50]",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "BB vs CO",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "3bet",
+                "BB vs CO"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-JJ,AKs-AJs,KQs,AKo-AQo,[50]TT,ATs,KJs,AJo[/50]",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "BB vs HJ",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "3bet",
+                "BB vs HJ"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-JJ,AKs-AJs,AKo-AQo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "BB vs UTG",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "3bet",
+                "BB vs UTG"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-JJ,AKs-AQs,AKo-AQo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "SB vs BTN",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "3bet",
+                "SB vs BTN"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-55,AKs-A7s,A5s-A3s,KQs-K9s,K6s,QJs-Q9s,JTs-J9s,T9s-T8s,98s,AKo-ATo,KQo-KJo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "SB vs CO",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "3bet",
+                "SB vs CO"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-88,AKs-A9s,A5s-A3s,KQs-KTs,QJs-QTs,JTs,T9s,AKo-AJo,KQo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "SB vs HJ",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "3bet",
+                "SB vs HJ"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-99,AKs-ATs,A5s-A3s,KQs-KJs,AKo-AJo,KQo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "SB vs UTG",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "3bet",
+                "SB vs UTG"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-TT,AKs-ATs,A5s-A3s,KQs,AKo-AQo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "BTN vs CO 3bet or fold",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "3bet",
+                "BTN vs CO 3bet or fold"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-66,AKs-A7s,A5s-A3s,KQs-K9s,QJs-Q9s,JTs-J9s,T9s,98s,87s,76s,65s,54s,AKo-ATo,KQo-KJo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "BTN vs HJ",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "3bet",
+                "BTN vs HJ"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-88,AKs-ATs,A5s-A3s,KQs-KTs,QJs,JTs,T9s,AKo-AJo,KQo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "BTN vs UTG",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "3bet",
+                "BTN vs UTG"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-TT,AKs-ATs,A5s-A3s,KQs-KJs,AKo-AQo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "CO vs HJ",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "3bet",
+                "CO vs HJ"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-TT,AKs-ATs,A5s-A3s,KQs-KJs,AKo-AQo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "CO vs UTG",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "3bet",
+                "CO vs UTG"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-TT,AKs-ATs,A5s-A3s,KQs-KJs,AKo-AQo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "HJ vs UTG",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "3bet",
+                "HJ vs UTG"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-TT,AKs-AJs,A5s-A3s,KQs,AKo-AQo",
+              "marked_cells": [],
+              "palette": []
+            }
+          ]
+        },
+        {
+          "name": "C3bet",
+          "path": [
+            "default_name",
+            "Mes ranges NL 25 - 50",
+            "C3bet"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 0,
+          "color": 0,
+          "children": [
+            {
+              "name": "SB vs BB",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "C3bet",
+                "SB vs BB"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "99-33,AJs-A8s,KQs-K8s,QJs-Q9s,JTs-J9s,T9s-T8s,98s,[50]A5s-A3s,87s,76s,65s[/50]",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "BTN vs BB",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "C3bet",
+                "BTN vs BB"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "TT-44,AJs-A8s,KQs-K9s,QJs-QTs,JTs,T9s,98s,87s,76s,65s,54s,AQo-AJo,KQo,[50]A5s-A3s[/50],[25]AA[/25]",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "BTN vs SB",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "C3bet",
+                "BTN vs SB"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "TT-22,AJs-A8s,KQs-K9s,QJs-Q9s,JTs-J9s,T9s,98s,87s,76s,65s,54s,AQo-AJo,KQo,[50]A5s-A3s[/50]",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "CO vs BB",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "C3bet",
+                "CO vs BB"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "TT-66,AQs-ATs,KQs-KJs,JTs,T9s,[50]JJ,A5s-A3s,AQo[/50]",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "CO vs SB",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "C3bet",
+                "CO vs SB"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "TT-66,AQs-ATs,KQs,JTs,T9s,AQo,[50]55-44[/50]",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "CO vs BTN",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "C3bet",
+                "CO vs BTN"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "99-77,AQs-AJs,KQs,T9s,[50]TT,66-44,ATs,KJs-KTs,QTs,JTs,98s,87s,76s[/50]",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "HJ vs BB",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "C3bet",
+                "HJ vs BB"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "JJ-66,AQs-AJs,KQs,JTs,T9s",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "HJ vs SB",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "C3bet",
+                "HJ vs SB"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "TT-66,AQs,JTs,T9s,[50]JJ,55-44,AKo[/50]",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "HJ vs BTN",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "C3bet",
+                "HJ vs BTN"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "99-88,[50]JJ-TT,77,AQs-ATs,KQs[/50]",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "HJ vs CO",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "C3bet",
+                "HJ vs CO"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "99-88,AQs,[50]JJ-TT,77[/50]",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "UTG vs BB",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "C3bet",
+                "UTG vs BB"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "QQ-88,AQs-AJs,KQs,AKo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "UTG vs SB",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "C3bet",
+                "UTG vs SB"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "JJ-77,AQs-ATs,KQs-KJs",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "UTG vs BTN",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "C3bet",
+                "UTG vs BTN"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "99-88,[50]JJ-TT,AQs[/50]",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "UTG vs CO",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "C3bet",
+                "UTG vs CO"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "99-88,AQs,[50]JJ-TT[/50]",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "UTG vs HJ",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "C3bet",
+                "UTG vs HJ"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "JJ-88,AQs",
+              "marked_cells": [],
+              "palette": []
+            }
+          ]
+        },
+        {
+          "name": "4bet",
+          "path": [
+            "default_name",
+            "Mes ranges NL 25 - 50",
+            "4bet"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 0,
+          "color": 0,
+          "children": [
+            {
+              "name": "SB vs BB",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "4bet",
+                "SB vs BB"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-TT,AKs-AQs,A7s-A6s,A2s,Q8s,J8s,AKo-ATo,KQo-KJo,[50]A5s-A3s,K7s-K2s,87s,76s,65s[/50]",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "BTN vs BB",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "4bet",
+                "BTN vs BB"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "KK-JJ,AKs-AQs,A7s-A6s,A2s,Q9s,AKo,ATo,[75]AA[/75],[50]A5s-A3s[/50]",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "BTN vs SB",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "4bet",
+                "BTN vs SB"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-JJ,AKs-AQs,A7s-A6s,A2s,AKo,ATo,KJo,[50]A5s-A3s[/50]",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "CO vs BB",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "4bet",
+                "CO vs BB"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-QQ,AKs,A9s-A8s,A6s,A2s,KTs,AKo,AJo,KQo,[50]JJ,A5s-A3s,AQo[/50]",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "CO vs SB",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "4bet",
+                "CO vs SB"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-JJ,AKs,KJs-KTs,AKo,AJo,KQo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "CO vs BTN",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "4bet",
+                "CO vs BTN"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-JJ,AKs,A5s-A3s,K6s-K5s,AKo-AJo,KQo,[50]TT,ATs,KJs-KTs,QTs,JTs[/50]",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "HJ vs BB",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "4bet",
+                "HJ vs BB"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-QQ,AKs,ATs,A5s-A3s,KJs,AKo-AQo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "HJ vs SB",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "4bet",
+                "HJ vs SB"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-QQ,AKs,AJs-ATs,KQs-KTs,AQo,[50]JJ,AKo[/50]",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "HJ vs BTN",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "4bet",
+                "HJ vs BTN"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-QQ,AKs,A5s,KJs-KTs,AKo-AQo,[50]JJ-TT,AQs-ATs,KQs[/50]",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "HJ vs CO",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "4bet",
+                "HJ vs CO"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-QQ,AKs,AJs-ATs,A5s,KQs-KJs,AKo-AQo,[50]JJ-TT[/50]",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "UTG vs BB",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "4bet",
+                "UTG vs BB"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-KK,AKs,ATs,KJs,AQo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "UTG vs SB",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "4bet",
+                "UTG vs SB"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-QQ,AKs,A5s-A3s,KTs,AKo-AQo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "UTG vs BTN",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "4bet",
+                "UTG vs BTN"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-QQ,AKs,AJs-ATs,KQs-KJs,AKo-AQo,[50]JJ-TT,AQs[/50]",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "UTG vs CO",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "4bet",
+                "UTG vs CO"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-QQ,AKs,AJs-ATs,KQs-KJs,AKo-AQo,[50]JJ-TT[/50]",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "UTG vs HJ",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "4bet",
+                "UTG vs HJ"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-QQ,AKs,AJs,KQs,AKo-AQo",
+              "marked_cells": [],
+              "palette": []
+            }
+          ]
+        },
+        {
+          "name": "C4bet",
+          "path": [
+            "default_name",
+            "Mes ranges NL 25 - 50",
+            "C4bet"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 0,
+          "color": 0,
+          "children": [
+            {
+              "name": "BTN vs CO",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "C4bet",
+                "BTN vs CO"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA,AQs-ATs,KQs-KJs,JTs,T9s,AQo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "BB vs SB Théorie",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "C4bet",
+                "BB vs SB Théorie"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA,AQs-ATs,KQs-KJs,AQo,KQo,[50]KTs,QJs,JTs,T9s,98s,87s,76s,65s,54s,AJo[/50]",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "BB vs SB Appliquée",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "C4bet",
+                "BB vs SB Appliquée"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA,AQs-ATs,KQs-KTs,QJs,JTs,T9s,98s,87s,76s,65s,54s,AQo-AJo,KQo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "SB vs BTN",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "C4bet",
+                "SB vs BTN"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AQs-ATs,KQs,JTs,T9s",
+              "marked_cells": [],
+              "palette": []
+            }
+          ]
+        },
+        {
+          "name": "5bet",
+          "path": [
+            "default_name",
+            "Mes ranges NL 25 - 50",
+            "5bet"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 0,
+          "color": 0,
+          "children": [
+            {
+              "name": "BTN vs CO",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "5bet",
+                "BTN vs CO"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "KK-66,AKs,A5s-A3s,AKo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "BB vs SB Théorie",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "5bet",
+                "BB vs SB Théorie"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "KK-TT,AKs,AKo,[50]99,A5s-A3s[/50]",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "BB vs SB Appliquée",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "5bet",
+                "BB vs SB Appliquée"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "KK-99,AKs,A5s-A3s,AKo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "SB vs BTN",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "5bet",
+                "SB vs BTN"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-66,AKs,A5s-A3s,KJs,AKo-AQo",
+              "marked_cells": [],
+              "palette": []
+            }
+          ]
+        },
+        {
+          "name": "CAI",
+          "path": [
+            "default_name",
+            "Mes ranges NL 25 - 50",
+            "CAI"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 0,
+          "color": 0,
+          "children": [
+            {
+              "name": "BvB",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "CAI",
+                "BvB"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-TT,AKs-AQs,AKo-AQo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "BTN vs BB",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "CAI",
+                "BTN vs BB"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-JJ,AKs-AQs,AKo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "BTN vs SB",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "CAI",
+                "BTN vs SB"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-JJ,AKs-AQs,AKo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "CO vs BB",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "CAI",
+                "CO vs BB"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-JJ,AKs,AKo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "CO vs SB",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "CAI",
+                "CO vs SB"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-JJ,AKs,AKo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "CO vs BTN",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "CAI",
+                "CO vs BTN"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-TT,AKs,AKo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "HJ vs BB applique",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "CAI",
+                "HJ vs BB applique"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-JJ,AKs,AKo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "HJ vs BTN applique",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "CAI",
+                "HJ vs BTN applique"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-JJ,AKs,AKo",
+              "marked_cells": [],
+              "palette": []
+            },
+            {
+              "name": "HJ vs CO",
+              "path": [
+                "default_name",
+                "Mes ranges NL 25 - 50",
+                "CAI",
+                "HJ vs CO"
+              ],
+              "order": 0,
+              "expanded": false,
+              "type": 1,
+              "color": 0,
+              "range": "AA-QQ,AKo",
+              "marked_cells": [],
+              "palette": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ranges de fishs",
+      "path": [
+        "default_name",
+        "Ranges de fishs"
+      ],
+      "order": 3,
+      "expanded": true,
+      "type": 0,
+      "color": 0,
+      "children": [
+        {
+          "name": "CPFR Fish CS 50/3 en BB",
+          "path": [
+            "default_name",
+            "Ranges de fishs",
+            "CPFR Fish CS 50/3 en BB"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 1,
+          "color": 0,
+          "range": "99-22,ATs-A2s,KJs-K2s,QJs-Q2s,JTs-J2s,T9s-T2s,98s-92s,87s-82s,76s-72s,65s-62s,54s-52s,43s-42s,32s,AJo-A2o,KQo-K2o,QJo-Q2o,JTo-J7o,T9o-T6o,98o-96o,87o-86o,76o-75o,65o,54o,43o,[75]AJs,KQs[/75],[50]TT,AQs,AQo,J6o,72o,64o[/50],[25]J5o-J2o,53o[/25],[20]AA-JJ,AKs,AKo,32o[/20],[10]T5o-T2o,95o,85o-84o,74o-73o,63o-62o,52o,42o[/10]",
+          "marked_cells": [],
+          "palette": []
+        },
+        {
+          "name": "Fish CS 50/3 en SB",
+          "path": [
+            "default_name",
+            "Ranges de fishs",
+            "Fish CS 50/3 en SB"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 1,
+          "color": 0,
+          "range": "TT-22,AJs-A2s,KQs-K2s,QJs-Q2s,JTs-J2s,T9s-T2s,98s-95s,87s-84s,76s-73s,65s-62s,54s-52s,43s-42s,32s,AQo-A2o,KQo-K2o,QJo-Q7o,JTo-J7o,T9o-T7o,98o-97o,87o,76o,65o,54o,43o,[50.0000]94s,83s,72s,Q6o-Q2o[/50.0000],[35.0000]86o[/35.0000],[20.0000]AA-JJ,AKs-AQs,93s-92s,82s,AKo,32o[/20.0000],[10.0000]75o[/10.0000]",
+          "marked_cells": [],
+          "palette": []
+        },
+        {
+          "name": "L/C ou CPFR Fish CS 50/3",
+          "path": [
+            "default_name",
+            "Ranges de fishs",
+            "L/C ou CPFR Fish CS 50/3"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 1,
+          "color": 0,
+          "range": "99-22,A9s-A2s,KTs-K2s,QJs-Q2s,JTs-J2s,T9s-T7s,98s-96s,87s-85s,76s-74s,65s-63s,54s-53s,43s,ATo-A2o,KJo-K9o,QJo-Q9o,JTo-J9o,T9o,98o,87o,76o,65o,54o,43o,[90.0000]ATs,KJs,AJo,KQo[/90.0000],[75.0000]TT,AJs,KQs,AQo[/75.0000],[50.0000]JJ,T6s,95s,84s,73s,52s,42s,K8o,Q8o,J8o,T8o,97o[/50.0000],[35.0000]T5s,K7o-K6o,86o[/35.0000],[20.0000]AA-QQ,AKs-AQs,32s,AKo,K5o-K2o,75o[/20.0000],[10.0000]T4s-T2s,94s-93s,83s,Q7o,J7o,T7o,64o,53o,32o[/10.0000],[5.0000]92s,82s,72s,62s,Q6o-Q2o,T6o,96o,42o[/5.0000]",
+          "marked_cells": [],
+          "palette": []
+        },
+        {
+          "name": "L/C avancé Fish CS 50/3",
+          "path": [
+            "default_name",
+            "Ranges de fishs",
+            "L/C avancé Fish CS 50/3"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 1,
+          "color": 0,
+          "range": "99-22,A9s-A2s,KTs-K2s,QJs-Q2s,JTs-J2s,T9s-T7s,98s-96s,87s-85s,76s-74s,65s-63s,54s-53s,43s,ATo-A2o,KJo-K9o,QJo-Q9o,JTo-J9o,T9o,98o,87o,76o,65o,54o,43o,[75]TT,AJs-ATs,KQs-KJs,T6s,AQo-AJo,KQo[/75],[50]JJ,95s,84s,73s,52s,42s,K8o,Q8o,J8o,T8o,97o[/50],[35]T5s,K7o-K6o,86o[/35],[20]AA-QQ,AKs-AQs,32s,AKo,K5o-K2o,75o[/20],[10]T4s-T2s,94s-93s,83s,Q7o,J7o,T7o,64o,53o,32o[/10],[5]92s,82s,72s,62s,Q6o[/5],[2]Q5o-Q4o,42o[/2],[1]Q3o-Q2o,J6o-J2o,T6o-T2o,96o-92o,85o-82o,74o-72o,63o-62o,52o[/1]",
+          "marked_cells": [],
+          "palette": []
+        },
+        {
+          "name": "L/C ou CPFR Fish 35/5",
+          "path": [
+            "default_name",
+            "Ranges de fishs",
+            "L/C ou CPFR Fish 35/5"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 1,
+          "color": 0,
+          "range": "99-22,A9s-A2s,KTs-K2s,QJs-Q2s,JTs-J7s,T9s-T7s,98s-97s,87s-86s,76s-75s,65s-64s,54s,43s,ATo-A2o,KJo-KTo,QJo-QTo,JTo,T9o,[90]ATs,KJs,AJo,KQo[/90],[75]TT,AJs,KQs[/75],[50]JJ,AQo,K9o,Q9o,J9o,98o[/50],[25]53s,42s,87o,76o,65o[/25],[20]AQs,32s[/20],[10]AA-QQ,AKs,AKo[/10],[5]J6s-J2s,T6s,96s,85s,74s,63s,52s,54o[/5]",
+          "marked_cells": [],
+          "palette": []
+        },
+        {
+          "name": "C3bet Fish 45/25",
+          "path": [
+            "default_name",
+            "Ranges de fishs",
+            "C3bet Fish 45/25"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 1,
+          "color": 0,
+          "range": "JJ-22,AQs-A2s,KQs-K8s,QJs-Q8s,JTs-J8s,T9s-T8s,98s,87s,76s,65s,54s,43s,AQo-A9o,KQo-KTo,QJo-QTo,JTo,T9o,[75]97s,86s,A8o[/75],[50]K7s-K2s,75s,64s,A7o,98o[/50],[25]AA,53s,42s,A5o-A2o,Q9o,J9o[/25],[10]KK-QQ,AKs,Q7s-Q2s,J7s,T7s,96s,85s,74s,63s,52s,32s,AKo,A6o,K9o,Q8o,J8o,T8o,87o,76o,65o,54o,43o[/10]",
+          "marked_cells": [],
+          "palette": []
+        }
+      ]
+    },
+    {
+      "name": "Ranges de regfishs",
+      "path": [
+        "default_name",
+        "Ranges de regfishs"
+      ],
+      "order": 3,
+      "expanded": false,
+      "type": 0,
+      "color": 0,
+      "children": [
+        {
+          "name": "L/C 32/16 UTG HJ",
+          "path": [
+            "default_name",
+            "Ranges de regfishs",
+            "L/C 32/16 UTG HJ"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 1,
+          "color": 0,
+          "range": "66-22,A7s-A2s,KTs-K9s,QJs-Q8s,JTs-J8s,T9s-T8s,98s-97s,87s-86s,76s,65s,54s,43s,A9o,KJo-KTo,QJo-QTo,JTo,T9o,[75.0000]77,A8s,K8s-K2s[/75.0000],[50.0000]88,A9s,KJs,75s,ATo[/50.0000],[25.0000]99,ATs,64s,53s,A8o,A5o-A3o[/25.0000],[20.0000]AA-KK[/20.0000],[10.0000]QQ-TT,AKs-AJs,KQs,J7s,T7s,96s,85s,74s,63s,AKo-AJo,A7o-A6o,A2o,KQo,98o[/10.0000]",
+          "marked_cells": [],
+          "palette": []
+        },
+        {
+          "name": "L/C 32/16 CO",
+          "path": [
+            "default_name",
+            "Ranges de regfishs",
+            "L/C 32/16 CO"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 1,
+          "color": 0,
+          "range": "44-22,K9s-K2s,Q9s-Q8s,J9s-J8s,98s-97s,87s-86s,76s-75s,65s,54s,43s,KTo,QJo-QTo,JTo,T9o,[75.0000]77-55,A7s-A2s,T9s-T8s,64s,53s,A5o-A3o[/75.0000],[50.0000]88,A8s,KTs,Q7s,JTs,J7s,T7s,96s,85s,74s,63s,A9o,A7o-A6o,A2o,KJo,K9o,Q9o,J9o,98o[/50.0000],[33.3333]Q8o,J8o,T8o[/33.3333],[25.0000]99,A9s,QTs,ATo,A8o,87o[/25.0000],[20.0000]AA-KK,ATs,KJs,QJs,K8o[/20.0000],[10.0000]QQ-TT,AKs-AJs,KQs,AKo-AJo,KQo[/10.0000]",
+          "marked_cells": [],
+          "palette": []
+        },
+        {
+          "name": "CPFR BB vs BTN 32/16",
+          "path": [
+            "default_name",
+            "Ranges de regfishs",
+            "CPFR BB vs BTN 32/16"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 1,
+          "color": 0,
+          "range": "99-22,A9s-A2s,KTs-K2s,QJs-Q2s,JTs-J2s,T9s-T6s,98s-95s,87s-84s,76s-73s,65s-63s,54s-52s,43s-42s,ATo-A2o,KJo-K7o,QJo-Q8o,JTo-J8o,T9o-T8o,98o,87o,76o,[75]ATs,KJs,T5s,62s,32s,AJo,KQo[/75],[50]TT,AJs,65o[/50],[25]KQs,AQo,K6o,Q7o,J7o,T7o,97o,54o,43o[/25],[10]JJ,AQs,T4s-T2s,94s-92s,83s-82s,72s,K5o-K2o[/10],[5]AA-QQ,AKs,AKo[/5]",
+          "marked_cells": [],
+          "palette": []
+        },
+        {
+          "name": "CPFR SB vs BTN/CO 21/14",
+          "path": [
+            "default_name",
+            "Ranges de regfishs",
+            "CPFR SB vs BTN/CO 21/14"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 1,
+          "color": 0,
+          "range": "99-22,A9s-A2s,KTs-K9s,QJs-Q8s,JTs-J8s,T9s-T8s,98s-97s,87s-86s,76s-75s,65s,54s,43s,ATo,KJo-KTo,QJo-QTo,JTo,[75.0000]ATs,KJs,AJo,KQo[/75.0000],[50.0000]TT,AJs,K8s,64s,A9o[/50.0000],[25.0000]JJ,KQs,K7s-K2s,53s,AQo,A8o,T9o[/25.0000]",
+          "marked_cells": [],
+          "palette": []
+        },
+        {
+          "name": "CFPFR IP",
+          "path": [
+            "default_name",
+            "Ranges de regfishs",
+            "CFPFR IP"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 1,
+          "color": 0,
+          "range": "99-22,ATs-A2s,KJs-K2s,QJs-Q8s,JTs-J7s,T9s-T7s,98s-97s,87s-86s,76s-75s,65s-64s,54s-53s,43s,AJo-A2o,KQo-KTo,QJo-QTo,JTo,T9o,[75]TT,Q9o,J9o[/75],[50]JJ,AQs-AJs,KQs,Q7s-Q2s,AQo,K9o[/50],[25]T6s,96s,85s,74s,63s,52s,42s,32s[/25],[10]AA-QQ,AKs,AKo,Q8o,J8o,T8o,98o,87o,76o,65o,54o,43o[/10]",
+          "marked_cells": [],
+          "palette": []
+        },
+        {
+          "name": "CPFR BTN 25/12 CC 25%",
+          "path": [
+            "default_name",
+            "Ranges de regfishs",
+            "CPFR BTN 25/12 CC 25%"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 1,
+          "color": 0,
+          "range": "99-22,ATs-A2s,KJs-K9s,QJs-Q9s,JTs-J9s,T9s,98s,87s,76s,65s,54s,43s,AJo-ATo,KQo-KTo,QJo-QTo,JTo,[90]TT,AJs,KQs[/90],[75]T8s,97s,86s,75s,A9o[/75],[50]JJ,K8s,Q8s,J8s,64s,AQo,A8o,A5o-A3o[/50],[25]AQs,T7s,53s,A7o,T9o[/25],[10]AA,42s,32s,A6o,A2o[/10]",
+          "marked_cells": [],
+          "palette": []
+        }
+      ]
+    },
+    {
+      "name": "Ranges de Regs",
+      "path": [
+        "default_name",
+        "Ranges de Regs"
+      ],
+      "order": 3,
+      "expanded": true,
+      "type": 0,
+      "color": 0,
+      "children": [
+        {
+          "name": "UTG",
+          "path": [
+            "default_name",
+            "Ranges de Regs",
+            "UTG"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 1,
+          "color": 0,
+          "range": "AA-44,AKs-A2s,KQs-KTs,QJs-QTs,JTs,T9s,AKo-ATo,KQo,[80]KJo[/80],[75]33[/75],[50]22,98s,87s[/50],[20]K9s,Q9s,J9s,76s,65s[/20],[10]K8s,KTo,QJo[/10]",
+          "marked_cells": [],
+          "palette": []
+        },
+        {
+          "name": "HJ",
+          "path": [
+            "default_name",
+            "Ranges de Regs",
+            "HJ"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 1,
+          "color": 0,
+          "range": "AA-44,AKs-A2s,KQs-KTs,QJs-QTs,JTs,T9s,AKo-ATo,KQo-KJo,[75]33,K9s,Q9s,J9s,98s,87s,76s,KTo,QJo[/75],[50]22,K8s,65s[/50],[10]K7s-K5s,J8s,T8s,QTo,JTo[/10]",
+          "marked_cells": [],
+          "palette": []
+        },
+        {
+          "name": "CO",
+          "path": [
+            "default_name",
+            "Ranges de Regs",
+            "CO"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 1,
+          "color": 0,
+          "range": "AA-55,AKs-A2s,KQs-K7s,QJs-Q8s,JTs-J8s,T9s-T8s,98s,AKo-A9o,KQo-KTo,QJo-QTo,JTo,[75]44-33,K6s,87s,76s,A8o[/75],[50]22,K5s,65s[/50],[25]K4s,54s[/25],[10]K3s-K2s,Q7s,J7s,97s,86s,43s,K9o[/10],[5]Q6s-Q4s,T7s,A7o,A5o[/5]",
+          "marked_cells": [],
+          "palette": []
+        },
+        {
+          "name": "BTN",
+          "path": [
+            "default_name",
+            "Ranges de Regs",
+            "BTN"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 1,
+          "color": 0,
+          "range": "AA-22,AKs-A2s,KQs-K2s,QJs-Q3s,JTs-J6s,T9s-T7s,98s-97s,87s-86s,76s-75s,65s,54s,AKo-A6o,KQo-K9o,QJo-Q9o,JTo-J9o,T9o,[75]A5o-A3o,K8o[/75],[50]Q2s,J5s-J2s,64s,43s,A2o,Q8o,J8o,T8o,98o[/50],[25]87o[/25],[10]T6s,96s,53s,K7o,76o[/10],[5]K6o[/5]",
+          "marked_cells": [],
+          "palette": []
+        },
+        {
+          "name": "SB",
+          "path": [
+            "default_name",
+            "Ranges de Regs",
+            "SB"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 1,
+          "color": 0,
+          "range": "AA-22,AKs-A2s,KQs-K2s,QJs-Q2s,JTs-J6s,T9s-T6s,98s-96s,87s-86s,76s-75s,65s-64s,54s,AKo-A6o,KQo-K9o,QJo-Q9o,JTo-J9o,T9o,[75]43s,A5o-A2o,K8o,98o[/75],[50]J5s,85s,53s[/50],[25]Q8o,J8o,T8o[/25],[10]J4s-J2s,T5s,95s,84s,74s-73s,63s,K7o,Q7o,J7o,T7o,87o[/10]",
+          "marked_cells": [],
+          "palette": []
+        },
+        {
+          "name": "CPFR BB vs SB Reg NL 50",
+          "path": [
+            "default_name",
+            "Ranges de Regs",
+            "CPFR BB vs SB Reg NL 50"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 1,
+          "color": 0,
+          "range": "77-22,A8s-A6s,A2s,K9s-K2s,Q9s-Q2s,J9s-J6s,T8s-T6s,97s-96s,86s-85s,75s,64s,A8o-A5o,KTo-K7o,QJo-Q9o,JTo-J9o,T9o,87o,[90]88,A9s,A5s-A3s,87s,76s,65s,54s,43s,A9o,A4o-A2o,98o[/90],[75]QTs,JTs,J5s-J2s,T9s,98s,74s,63s,53s,ATo,KJo,Q8o,J8o,T8o,76o[/75],[55]T5s-T2s[/55],[50]99,65o[/50],[25]ATs,KTs,QJs,95s,84s,73s,52s,42s,32s,AJo,KQo,K6o[/25],[10]94s-93s,83s,62s,K5o,Q7o,J7o,T7o,97o,54o,43o[/10]",
+          "marked_cells": [],
+          "palette": []
+        },
+        {
+          "name": "CPFR BB vs SB Reg 10",
+          "path": [
+            "default_name",
+            "Ranges de Regs",
+            "CPFR BB vs SB Reg 10"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 1,
+          "color": 0,
+          "range": "88-22,A9s-A6s,A2s,K9s-K2s,QTs-Q2s,J9s-J6s,T9s-T6s,98s-97s,87s-86s,76s-75s,65s-64s,54s,43s,A9o-A6o,KTo-K9o,QJo-Q9o,JTo-J9o,T9o,98o,[75.0000]A5s-A3s,KTs,QJs,JTs,96s,ATo,A5o-A3o,KJo,K8o[/75.0000],[50.0000]99,85s,53s,A2o,Q8o,J8o,T8o,87o[/50.0000],[25.0000]TT,ATs,J5s-J2s,74s,63s,AJo,KQo,K7o,76o[/25.0000],[10.0000]65o[/10.0000]",
+          "marked_cells": [],
+          "palette": []
+        },
+        {
+          "name": "CPFR BB vs BTN Reg NL 50",
+          "path": [
+            "default_name",
+            "Ranges de Regs",
+            "CPFR BB vs BTN Reg NL 50"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 1,
+          "color": 0,
+          "range": "77,66,55,44,33,22,ATo,A9,A8,A7,A6,A2s,KJo,KTo,K9,K8,K7s,K6s,K5s,K4s,K3s,K2s,QJo,QTo,Q9,Q8,Q7s,Q6s,Q5s,Q4s,Q3s,Q2s,JTo,J9,J8,J7s,J6s,T9o,T8,T7s,T6s,98o,97s,96s,87o,86s,85s,75s,74s,64s,54s,53s,43s,[75%]99[/75%],[90%]88[/90%],[25%]AJo[/25%],[75%]A5[/75%],[75%]A4s[/75%],[25%]A4o[/25%],[75%]A3s[/75%],[25%]A3o[/25%],[25%]A2o[/25%],[50%]KQo[/50%],[25%]KJs[/25%],[75%]KTs[/75%],[10%]K7o[/10%],[75%]QJs[/75%],[90%]QTs[/90%],[10%]Q7o[/10%],[75%]JTs[/75%],[10%]J7o[/10%],[50%]J5s[/50%],[10%]J4s[/10%],[10%]J3s[/10%],[10%]J2s[/10%],[75%]T9s[/75%],[10%]T7o[/10%],[75%]98s[/75%],[10%]97o[/10%],[10%]95s[/10%],[75%]87s[/75%],[10%]86o[/10%],[10%]84s[/10%],[75%]76s[/75%],[50%]76o[/50%],[10%]73s[/10%],[75%]65s[/75%],[25%]65o[/25%],[75%]63s[/75%],[10%]54o[/10%],[75%]52s[/75%],[75%]42s[/75%],[10%]32s[/10%]",
+          "marked_cells": [],
+          "palette": []
+        },
+        {
+          "name": "CPFR BB vs BTN Reg 10",
+          "path": [
+            "default_name",
+            "Ranges de Regs",
+            "CPFR BB vs BTN Reg 10"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 1,
+          "color": 0,
+          "range": "88-22,A9s-A6s,A2s,KTs-K2s,QTs-Q7s,J9s-J7s,T8s-T7s,98s-97s,87s-86s,76s-75s,65s,54s,43s,ATo-A7o,KJo-K8o,QJo-Q9o,JTo-J9o,T9o,98o,[80.0000]99,T9s[/80.0000],[75.0000]A5s-A3s,QJs,Q6s-Q2s,JTs,T6s,64s,53s,A6o[/75.0000],[50.0000]ATs,KJs,J6s,96s,AJo,KQo,87o[/50.0000],[35.0000]A5o[/35.0000],[25.0000]85s,74s,63s,Q8o,J8o,T8o,76o[/25.0000],[10.0000]TT,A4o-A2o[/10.0000]",
+          "marked_cells": [],
+          "palette": []
+        },
+        {
+          "name": "CPFR BB vs CO Reg NL 50",
+          "path": [
+            "default_name",
+            "Ranges de Regs",
+            "CPFR BB vs CO Reg NL 50"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 1,
+          "color": 0,
+          "range": "99-22,A9s-A2s,KTs-K8s,QJs-Q9s,JTs-J8s,T9s-T8s,98s,87s,76s,65s,54s,43s,ATo-A9o,KJo-KTo,QJo-QTo,JTo,[90]ATs,KJs,AJo,KQo[/90],[75]TT,K7s[/75],[50]AJs,KQs,K6s,Q8s,97s,86s,75s,AQo[/50],[25]K5s,64s,A8o[/25],[10]JJ,K4s-K2s,Q7s-Q6s,J7s,53s,T9o[/10],[5]Q5s-Q2s,T7s,96s,85s[/5]",
+          "marked_cells": [],
+          "palette": []
+        },
+        {
+          "name": "CPFR SB vs BTN Reg kapatoucompris",
+          "path": [
+            "default_name",
+            "Ranges de Regs",
+            "CPFR SB vs BTN Reg kapatoucompris"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 1,
+          "color": 0,
+          "range": "99-22,A9s-A2s,KTs,QJs-QTs,JTs,T9s,98s,87s,76s,65s,ATo,KJo,QJo,[50]ATs,KJs,54s,AJo,KQo[/50],[25]43s,KTo,QTo,JTo[/25],[10]TT,K9s,Q9s,J9s,T8s[/10]",
+          "marked_cells": [],
+          "palette": []
+        },
+        {
+          "name": "CPFR BB vs HJ Reg NL 50",
+          "path": [
+            "default_name",
+            "Ranges de Regs",
+            "CPFR BB vs HJ Reg NL 50"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 1,
+          "color": 0,
+          "range": "99-22,ATs-A2s,KJs-K8s,QJs-Q9s,JTs-J8s,T9s-T8s,98s,87s,76s,65s,54s,43s,AJo-A9o,KQo-KTo,QJo-QTo,JTo,[75]TT,AJs,KQs[/75],[50]AQo[/50],[25]Q8s,97s,86s,75s[/25],[10]JJ,K7s-K6s,64s[/10]",
+          "marked_cells": [],
+          "palette": []
+        },
+        {
+          "name": "CPFR BTN vs CO Reg NL 10",
+          "path": [
+            "default_name",
+            "Ranges de Regs",
+            "CPFR BTN vs CO Reg NL 10"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 1,
+          "color": 0,
+          "range": "77-55,A9s,KTs,QTs,[90]88[/90],[75]99,44-22,A8s,A5s-A3s,QJs,JTs,T9s,98s,87s,76s,65s,ATo[/75],[50]A7s-A6s,A2s[/50],[25]ATs,54s,43s,KJo,QJo[/25],[10]TT,AJs,KQs-KJs,K9s,Q9s,J9s,AJo,A9o,KQo,KTo,QTo,JTo[/10]",
+          "marked_cells": [],
+          "palette": []
+        },
+        {
+          "name": "3bet BvB Reg NL 50",
+          "path": [
+            "default_name",
+            "Ranges de Regs",
+            "3bet BvB Reg NL 50"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 1,
+          "color": 0,
+          "range": "AA-TT,AKs-AJs,KQs-KJs,AKo-AQo,[75]ATs,KTs,QJs,AJo,KQo[/75],[50]99[/50],[25]QTs,JTs,T9s,98s,ATo,KJo[/25],[10]88,A9s,A5s-A3s,87s,76s,65s,54s,43s,A9o,QJo[/10]",
+          "marked_cells": [],
+          "palette": []
+        },
+        {
+          "name": "3bet BvB NL 10",
+          "path": [
+            "default_name",
+            "Ranges de Regs",
+            "3bet BvB NL 10"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 1,
+          "color": 0,
+          "range": "AA-TT,AKs-AJs,KQs-KJs,AKo-AQo,[75]ATs,KTs,QJs,AJo,KQo[/75],[50]99[/50],[25]QTs,JTs,T9s,98s,ATo,KJo[/25],[10]88-77,A9s,A5s-A3s,87s,76s,65s[/10]",
+          "marked_cells": [],
+          "palette": []
+        },
+        {
+          "name": "3bet BB vs BTN Reg NL 50 mergé",
+          "path": [
+            "default_name",
+            "Ranges de Regs",
+            "3bet BB vs BTN Reg NL 50 mergé"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 1,
+          "color": 0,
+          "range": "AA,KK,QQ,JJ,TT,AK,AQ,AJs,ATs,KQs,[25%]99[/25%],[10%]88[/10%],[75%]AJo[/75%],[25%]A5s[/25%],[25%]A4s[/25%],[25%]A3s[/25%],[50%]KQo[/50%],[75%]KJs[/75%],[25%]KTs[/25%],[25%]QJs[/25%],[10%]QTs[/10%],[25%]JTs[/25%],[25%]T9s[/25%],[25%]98s[/25%],[25%]87s[/25%],[25%]76s[/25%],[25%]65s[/25%]",
+          "marked_cells": [],
+          "palette": []
+        },
+        {
+          "name": "3bet BB vs CO Reg NL 50-",
+          "path": [
+            "default_name",
+            "Ranges de Regs",
+            "3bet BB vs CO Reg NL 50-"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 1,
+          "color": 0,
+          "range": "AA,KK,QQ,AK,AQs,[90%]JJ[/90%],[25%]TT[/25%],[50%]AQo[/50%],[50%]AJs[/50%],[10%]AJo[/10%],[10%]ATs[/10%],[50%]KQs[/50%],[10%]KQo[/10%],[10%]KJs[/10%]",
+          "marked_cells": [],
+          "palette": []
+        },
+        {
+          "name": "3bet SB vs BTN",
+          "path": [
+            "default_name",
+            "Ranges de Regs",
+            "3bet SB vs BTN"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 1,
+          "color": 0,
+          "range": "AA-77,AKs-A7s,A5s-A3s,KQs-KTs,QJs-QTs,JTs,T9s,98s,AKo-AJo,KQo,[75]66,ATo,KJo[/75],[50]55,A6s,A2s,K9s,Q9s,J9s,T8s,87s[/50],[25]76s,65s[/25]",
+          "marked_cells": [],
+          "palette": []
+        },
+        {
+          "name": "3bet SB vs CO Reg NL 25",
+          "path": [
+            "default_name",
+            "Ranges de Regs",
+            "3bet SB vs CO Reg NL 25"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 1,
+          "color": 0,
+          "range": "AA-99,AKs-ATs,A5s-A3s,KQs-KJs,AKo-AJo,KQo,[75]KTs,QJs,JTs[/75],[50]88,QTs,T9s[/50],[25]98s[/25],[10]77,A9s-A8s,A2s,87s,76s,65s[/10],[5]66[/5]",
+          "marked_cells": [],
+          "palette": []
+        },
+        {
+          "name": "3bet BTN vs CO linéaire",
+          "path": [
+            "default_name",
+            "Ranges de Regs",
+            "3bet BTN vs CO linéaire"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 1,
+          "color": 0,
+          "range": "AA,KK,QQ,JJ,TT,99,88,AK,AQ,AJ,ATs,A9s,A8s,A7s,A6s,A5s,A4s,A3s,A2s,KQ,KJs,KTs,QJs,QTs,JTs,T9s,98s,[75%]77[/75.00%],[50%]66[/50.00%],[25%]55[/25.00%],[25%]44[/25.00%],[10%]33[/10.00%],[10%]22[/10.00%],[25%]ATo[/25.00%],[25%]KJo[/25.00%],[25%]K9s[/25.00%],[10%]QJo[/10.00%],[25%]Q9s[/25.00%],[25%]J9s[/25.00%],[10%]T8s[/10.00%],[75%]87s[/75.00%],[75%]76s[/75.00%],[50%]65s[/50.00%],[25%]54s[/25.00%]",
+          "marked_cells": [],
+          "palette": []
+        },
+        {
+          "name": "3bet BTN vs HJ linéaire Reg NL 50",
+          "path": [
+            "default_name",
+            "Ranges de Regs",
+            "3bet BTN vs HJ linéaire Reg NL 50"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 1,
+          "color": 0,
+          "range": "AA,KK,QQ,JJ,TT,99,AK,AQ,AJs,ATs,A5s,A4s,A3s,KQs,KJs,[50%]88[/50%],[25%]77[/25%],[10%]66[/10%],[50%]AJo[/50%],[50%]A9s[/50%],[50%]A8s[/50%],[25%]A7s[/25%],[25%]A6s[/25%],[10%]A2s[/10%],[50%]KQo[/50%],[50%]KTs[/50%],[50%]QJs[/50%],[25%]QTs[/25%],[50%]JTs[/50%],[25%]T9s[/25%]",
+          "marked_cells": [],
+          "palette": []
+        },
+        {
+          "name": "C3bet SB vs BB Reg NL 50",
+          "path": [
+            "default_name",
+            "Ranges de Regs",
+            "C3bet SB vs BB Reg NL 50"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 1,
+          "color": 0,
+          "range": "99,88,77,AQo,AJs,ATs,KQs,KJs,QJs,JTs,T9s,[50%]JJ[/50.00%],[90%]TT[/90.00%],[75%]66[/75.00%],[75%]55[/75.00%],[50%]44[/50.00%],[25%]33[/25.00%],[10%]22[/10.00%],[90%]AQs[/90.00%],[75%]AJo[/75.00%],[10%]ATo[/10.00%],[50%]A9s[/50.00%],[25%]A8s[/25.00%],[10%]A7s[/10.00%],[10%]A6s[/10.00%],[25%]A5s[/25.00%],[25%]A4s[/25.00%],[25%]A3s[/25.00%],[10%]A2s[/10.00%],[75%]KQo[/75.00%],[10%]KJo[/10.00%],[75%]KTs[/75.00%],[25%]K9s[/25.00%],[10%]K8s[/10.00%],[75%]QTs[/75.00%],[25%]Q9s[/25.00%],[10%]Q8s[/10.00%],[25%]J9s[/25.00%],[10%]J8s[/10.00%],[10%]T8s[/10.00%],[50%]98s[/50.00%],[25%]87s[/25.00%],[25%]76s[/25.00%],[10%]65s[/10.00%]",
+          "marked_cells": [],
+          "palette": []
+        },
+        {
+          "name": "C3bet BTN vs SB Reg 10",
+          "path": [
+            "default_name",
+            "Ranges de Regs",
+            "C3bet BTN vs SB Reg 10"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 1,
+          "color": 0,
+          "range": "99-44,AQs-A9s,KQs-KTs,QJs-QTs,JTs,T9s,98s,87s,AQo,[90]TT,33-22,AJo,KQo[/90],[75]JJ,76s,65s[/75],[50]A8s,K9s,Q9s,J9s[/50],[35]A5s-A3s[/35],[25]T8s,54s[/25],[15]A7s-A6s,A2s,43s[/15],[10]ATo,KJo[/10],[5]K8s,Q8s,J8s,QJo[/5]",
+          "marked_cells": [],
+          "palette": []
+        },
+        {
+          "name": "C3bet BTN vs SB Reg 25 50",
+          "path": [
+            "default_name",
+            "Ranges de Regs",
+            "C3bet BTN vs SB Reg 25 50"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 1,
+          "color": 0,
+          "range": "99,88,77,66,AQo,AJs,ATs,A9s,KQs,KJs,KTs,QJs,QTs,JTs,T9s,[10%]AA[/10%],[75%]JJ[/75%],[90%]TT[/90%],[75%]55[/75%],[50%]44[/50%],[25%]33[/25%],[25%]22[/25%],[90%]AQs[/90%],[75%]AJo[/75%],[75%]A8s[/75%],[10%]A7s[/10%],[10%]A6s[/10%],[25%]A5s[/25%],[25%]A4s[/25%],[25%]A3s[/25%],[10%]A2s[/10%],[75%]KQo[/75%],[10%]K9s[/10%],[10%]Q9s[/10%],[10%]J9s[/10%],[10%]T8s[/10%],[50%]98s[/50%],[25%]87s[/25%],[25%]76s[/25%],[25%]65s[/25%],[25%]54s[/25%],[10%]43s[/10%]",
+          "marked_cells": [],
+          "palette": []
+        },
+        {
+          "name": "C3bet CO vs blinds Reg 25",
+          "path": [
+            "default_name",
+            "Ranges de Regs",
+            "C3bet CO vs blinds Reg 25"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 1,
+          "color": 0,
+          "range": "JJ-77,AQs,KQs-KJs,QJs,JTs,T9s,98s,AQo,[75]66,AJs-ATs,87s[/75],[50]55,A9s,76s[/50],[25]44,A8s,KTs,QTs,J9s,65s[/25],[20]AA,QQ,AKs,AJo[/20],[10]33-22,A5s-A3s,KQo[/10]",
+          "marked_cells": [],
+          "palette": []
+        },
+        {
+          "name": "C3bet CO vs BTN Reg NL 50",
+          "path": [
+            "default_name",
+            "Ranges de Regs",
+            "C3bet CO vs BTN Reg NL 50"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 1,
+          "color": 0,
+          "range": "88-77,AQs-ATs,KQs-KJs,QJs,JTs,T9s,[90]99[/90],[75]TT[/75],[50]JJ,66,A9s,KTs,QTs,98s,AQo[/50],[25]55,A8s,A5s-A3s,87s[/25],[10]44,76s,65s,AJo,KQo[/10],[5]33-22[/5]",
+          "marked_cells": [],
+          "palette": []
+        },
+        {
+          "name": "C3bet UTG HJ vs BTN",
+          "path": [
+            "default_name",
+            "Ranges de Regs",
+            "C3bet UTG HJ vs BTN"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 1,
+          "color": 0,
+          "range": "JJ-88,AQs,T9s,[75]77[/75],[50]66,AJs-ATs,KQs-KJs,JTs[/50],[25]55[/25],[10]AA,QQ,AKs,A5s-A3s,KTs,QJs,98s,87s,AKo-AQo[/10]",
+          "marked_cells": [],
+          "palette": []
+        },
+        {
+          "name": "Cold call 3bet ip Regs suspect",
+          "path": [
+            "default_name",
+            "Ranges de Regs",
+            "Cold call 3bet ip Regs suspect"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 1,
+          "color": 0,
+          "range": "JJ-88,AQs-AJs,KQs,AQo,[50]QQ,77,AKs,ATs,KJs,QJs,JTs,T9s,AKo[/50],[35]66[/35],[25]AA,A5s-A3s,KTs,98s,87s,76s,65s[/25],[20]55-44[/20],[10]A9s,QTs,AJo,KQo[/10],[5]33-22[/5]",
+          "marked_cells": [],
+          "palette": []
+        },
+        {
+          "name": "C4bet BvB",
+          "path": [
+            "default_name",
+            "Ranges de Regs",
+            "C4bet BvB"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 1,
+          "color": 0,
+          "range": "TT,99,AQ,AJs,ATs,KQs,KJs,KTs,JTs,T9s,[25%]AA[/25%],[75%]JJ[/75%],[50%]88[/50%],[10%]77[/10%],[10%]AKs[/10%],[10%]AJo[/10%],[10%]A9s[/10%],[25%]A5s[/25%],[25%]A4s[/25%],[25%]A3s[/25%],[10%]KQo[/10%],[50%]QJs[/50%],[25%]QTs[/25%],[50%]98s[/50%],[25%]87s[/25%],[25%]76s[/25%],[10%]65s[/10%]",
+          "marked_cells": [],
+          "palette": []
+        }
+      ]
+    },
+    {
+      "name": "Ranges Live",
+      "path": [
+        "default_name",
+        "Ranges Live"
+      ],
+      "order": 3,
+      "expanded": false,
+      "type": 0,
+      "color": 0,
+      "children": [
+        {
+          "name": "Reg BB qui complète \"bonne cote\"",
+          "path": [
+            "default_name",
+            "Ranges Live",
+            "Reg BB qui complète \"bonne cote\""
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 1,
+          "color": 0,
+          "range": "TT-22,AJs-A2s,KQs-K2s,QJs-Q8s,JTs-J7s,T9s-T7s,98s-96s,87s-85s,76s-74s,65s-63s,54s-53s,43s,AJo-A9o,A5o-A3o,KQo-KTo,QJo-QTo,JTo,T9o,[75]JJ,AQs,AQo,Q9o,J9o[/75],[50]Q7s,T6s,95s,84s,73s,52s,42s,32s,A8o,T8o,98o[/50],[25]87o,76o,65o[/25],[10]Q6s-Q2s,J6s,62s,A7o-A6o,A2o,54o,43o[/10]",
+          "marked_cells": [],
+          "palette": []
+        },
+        {
+          "name": "CC harrington",
+          "path": [
+            "default_name",
+            "Ranges Live",
+            "CC harrington"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 1,
+          "color": 0,
+          "range": "99-22,AJs-A2s,KQs-K9s,QJs-Q9s,JTs-J9s,T9s-T8s,98s-97s,87s-86s,76s-75s,65s,AJo-A9o,KQo-KTo,QJo-QTo,JTo,[75]TT[/75],[50]Q8s,J8s,54s,43s,AQo,T9o[/50],[25]JJ,AQs,K8s,64s[/25],[10]AA,K7s-K2s,T7s,53s,A8o,A5o-A3o[/10]",
+          "marked_cells": [],
+          "palette": []
+        }
+      ]
+    },
+    {
+      "name": "Ranges GTO Wizzard",
+      "path": [
+        "default_name",
+        "Ranges GTO Wizzard"
+      ],
+      "order": 3,
+      "expanded": false,
+      "type": 0,
+      "color": 0,
+      "children": [
+        {
+          "name": "OR CO",
+          "path": [
+            "default_name",
+            "Ranges GTO Wizzard",
+            "OR CO"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 1,
+          "color": 0,
+          "range": "AA,KK,QQ,JJ,TT,99,88,77,66,55,AK,AQ,AJ,AT,A9,A8s,A7s,A6s,A5s,A4s,A3s,A2s,KQ,KJ,KT,K9s,K8s,K7s,K6s,K5s,K4s,K3s,QJ,QT,Q9s,Q8s,Q7s,Q6s,Q5s,JT,J9s,J8s,T9s,T8s,98s,[70%]44[/70%],[40%]33[/40%],[40%]22[/40%],[75%]A8o[/75%],[35%]A7o[/35%],[5%]A6o[/5%],[85%]A5o[/85%],[10%]A4o[/10%],[35%]K9o[/35%],[35%]K2s[/35%],[25%]Q4s[/25%],[5%]J9o[/5%],[80%]J7s[/80%],[5%]T7s[/5%],[35%]97s[/35%],[35%]87s[/35%],[10%]86s[/10%],[35%]76s[/35%],[35%]65s[/35%],[40%]54s[/40%],[25%]43s[/25%]",
+          "marked_cells": [],
+          "palette": []
+        },
+        {
+          "name": "3bet BvB",
+          "path": [
+            "default_name",
+            "Ranges GTO Wizzard",
+            "3bet BvB"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 1,
+          "color": 0,
+          "range": "AA,KK,QQ,JJ,TT,AK,AQ,AJs,A2o,KQs,T2s,[75%]99[/75%],[10%]88[/10%],[35%]AJo[/35%],[30%]ATs[/30%],[10%]ATo[/10%],[45%]A7o[/45%],[65%]A6o[/65%],[10%]A5o[/10%],[45%]A4o[/45%],[20%]A3s[/20%],[70%]A3o[/70%],[10%]A2s[/10%],[25%]KQo[/25%],[75%]KJs[/75%],[10%]KJo[/10%],[30%]KTs[/30%],[15%]KTo[/15%],[50%]K9s[/50%],[20%]K9o[/20%],[20%]K8o[/20%],[75%]K7o[/75%],[20%]K6s[/20%],[35%]K6o[/35%],[15%]K5s[/15%],[35%]K5o[/35%],[15%]K3s[/15%],[20%]K2s[/20%],[55%]QJs[/55%],[35%]QTs[/35%],[45%]Q9o[/45%],[45%]Q8o[/45%],[5%]Q7o[/5%],[5%]Q6s[/5%],[20%]Q6o[/20%],[55%]JTs[/55%],[30%]J9s[/30%],[45%]J9o[/45%],[55%]J8o[/55%],[20%]J7s[/20%],[35%]J4s[/35%],[15%]J3s[/15%],[65%]J2s[/65%],[50%]T9s[/50%],[25%]T9o[/25%],[40%]T8s[/40%],[35%]T8o[/35%],[25%]T7s[/25%],[20%]T6s[/20%],[50%]T5s[/50%],[45%]T4s[/45%],[65%]T3s[/65%],[65%]98s[/65%],[10%]97s[/10%],[65%]87s[/65%],[65%]76s[/65%],[50%]65s[/50%],[50%]54s[/50%],[25%]53s[/25%],[30%]43s[/30%]",
+          "marked_cells": [],
+          "palette": []
+        },
+        {
+          "name": "CPFR BB vs CO",
+          "path": [
+            "default_name",
+            "Ranges GTO Wizzard",
+            "CPFR BB vs CO"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 1,
+          "color": 0,
+          "range": "33,22,A9s,A8s,A7s,A6s,QJs,QTs,98s,97s,86s,75s,64s,53s,43s,[70%]TT[/70%],[95%]99[/95%],[95%]88[/95%],[95%]77[/95%],[85%]66[/85%],[85%]55[/85%],[85%]44[/85%],[25%]AQo[/25%],[50%]AJs[/50%],[60%]AJo[/60%],[90%]ATs[/90%],[75%]ATo[/75%],[45%]A9o[/45%],[85%]A5s[/85%],[75%]A4s[/75%],[95%]A3s[/95%],[80%]A2s[/80%],[55%]KQs[/55%],[60%]KQo[/60%],[95%]KJs[/95%],[50%]KJo[/50%],[95%]KTs[/95%],[65%]KTo[/65%],[85%]K9s[/85%],[75%]K8s[/75%],[75%]K7s[/75%],[80%]K6s[/80%],[80%]K5s[/80%],[65%]K4s[/65%],[50%]K3s[/50%],[60%]K2s[/60%],[50%]QJo[/50%],[50%]QTo[/50%],[90%]Q9s[/90%],[70%]Q8s[/70%],[60%]Q7s[/60%],[50%]Q6s[/50%],[65%]Q5s[/65%],[45%]Q4s[/45%],[15%]Q3s[/15%],[5%]Q2s[/5%],[90%]JTs[/90%],[50%]JTo[/50%],[90%]J9s[/90%],[75%]J8s[/75%],[50%]J7s[/50%],[10%]J6s[/10%],[95%]T9s[/95%],[95%]T8s[/95%],[75%]T7s[/75%],[90%]96s[/90%],[90%]87s[/90%],[70%]85s[/70%],[90%]76s[/90%],[55%]74s[/55%],[90%]65s[/90%],[45%]63s[/45%],[90%]54s[/90%],[40%]52s[/40%],[50%]42s[/50%],[20%]32s[/20%]",
+          "marked_cells": [],
+          "palette": []
+        },
+        {
+          "name": "3bet BB vs BTN",
+          "path": [
+            "default_name",
+            "Ranges GTO Wizzard",
+            "3bet BB vs BTN"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 1,
+          "color": 0,
+          "range": "AA-TT,AKs-AJs,KQs,AKo-AQo,[65]KJs[/65],[55]J7s,T9s,T6s,A5o[/55],[50]99,J6s,KTo-K9o[/50],[45]K3s,A7o,KJo,QTo[/45],[40]K2s,JTs,J5s,65s,54s,QJo[/40],[35]KTs,Q3s,J4s,98s,87s,ATo[/35],[30]Q4s,76s,KQo,JTo,T9o[/30],[25]K4s,Q6s,Q2s,AJo,A8o,A4o[/25],[20]55,K7s,Q8s,A9o,J9o[/20],[15]88,A5s,K6s-K5s,Q7s,Q5s,T7s,85s[/15],[10]77,A3s-A2s,J9s-J8s,96s[/10],[5]66,T8s,97s,86s,Q9o[/5]",
+          "marked_cells": [],
+          "palette": []
+        },
+        {
+          "name": "3bet CO vs HJ",
+          "path": [
+            "default_name",
+            "Ranges GTO Wizzard",
+            "3bet CO vs HJ"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 1,
+          "color": 0,
+          "range": "AA,KK,QQ,JJ,TT,AK,AQ,AJs,ATs,A4s,KQs,KJs,KTs,QJs,[40%]99[/40%],[35%]88[/35%],[25%]77[/25%],[25%]66[/25%],[5%]55[/5%],[5%]44[/5%],[5%]33[/5%],[50%]AJo[/50%],[70%]A9s[/70%],[60%]A8s[/60%],[35%]A7s[/35%],[90%]A5s[/90%],[40%]A3s[/40%],[80%]KQo[/80%],[5%]KJo[/5%],[15%]K9s[/15%],[5%]K6s[/5%],[5%]K5s[/5%],[70%]QTs[/70%],[15%]JTs[/15%],[5%]T9s[/5%],[10%]87s[/10%],[25%]76s[/25%],[30%]65s[/30%],[35%]54s[/35%]",
+          "marked_cells": [],
+          "palette": []
+        },
+        {
+          "name": "C3bet CO vs BTN",
+          "path": [
+            "default_name",
+            "Ranges GTO Wizzard",
+            "C3bet CO vs BTN"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 1,
+          "color": 0,
+          "range": "AQs,AJs,KQs,[50%]TT[/50%],[75%]99[/75%],[75%]88[/75%],[75%]77[/75%],[50%]66[/50%],[50%]55[/50%],[75%]44[/75%],[50%]33[/50%],[50%]22[/50%],[20%]AQo[/20%],[50%]ATs[/50%],[25%]A9s[/25%],[40%]A5s[/40%],[30%]A4s[/30%],[15%]A3s[/15%],[50%]KJs[/50%],[75%]KTs[/75%],[10%]K9s[/10%],[35%]QJs[/35%],[50%]QTs[/50%],[75%]JTs[/75%],[40%]T9s[/40%],[20%]T8s[/20%],[20%]98s[/20%],[25%]87s[/25%],[50%]76s[/50%],[50%]65s[/50%],[50%]54s[/50%]",
+          "marked_cells": [],
+          "palette": []
+        },
+        {
+          "name": "C3bet UTG vs HJ",
+          "path": [
+            "default_name",
+            "Ranges GTO Wizzard",
+            "C3bet UTG vs HJ"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 1,
+          "color": 0,
+          "range": "[35%]QQ[/35%],[45%]JJ[/45%],[35%]TT[/35%],[35%]99[/35%],[30%]88[/30%],[35%]77[/35%],[35%]66[/35%],[20%]55[/20%],[10%]44[/10%],[10%]33[/10%],[10%]22[/10%],[35%]AKo[/35%],[60%]AQs[/60%],[35%]AJs[/35%],[20%]ATs[/20%],[20%]A5s[/20%],[15%]A4s[/15%],[5%]A3s[/5%],[20%]KQs[/20%],[25%]KJs[/25%],[15%]KTs[/15%],[15%]QJs[/15%],[10%]QTs[/10%],[20%]JTs[/20%],[20%]T9s[/20%]",
+          "marked_cells": [],
+          "palette": []
+        },
+        {
+          "name": "C4bet BvB",
+          "path": [
+            "default_name",
+            "Ranges GTO Wizzard",
+            "C4bet BvB"
+          ],
+          "order": 0,
+          "expanded": false,
+          "type": 1,
+          "color": 0,
+          "range": "AA,AQs,AJs,KQs,[25%]JJ[/25%],[25%]TT[/25%],[50%]99[/50%],[10%]88[/10%],[25%]AQo[/25%],[35%]AJo[/35%],[25%]ATs[/25%],[10%]ATo[/10%],[10%]A5o[/10%],[20%]A4o[/20%],[20%]A3s[/20%],[10%]A2s[/10%],[35%]KQo[/35%],[15%]KJo[/15%],[15%]KTo[/15%],[50%]K9s[/50%],[20%]K6s[/20%],[15%]K5s[/15%],[15%]K3s[/15%],[20%]K2s[/20%],[50%]QTs[/50%],[5%]Q6s[/5%],[50%]JTs[/50%],[30%]J9s[/30%],[20%]J7s[/20%],[50%]T9s[/50%],[40%]T8s[/40%],[25%]T7s[/25%],[20%]T6s[/20%],[75%]98s[/75%],[10%]97s[/10%],[75%]87s[/75%],[75%]76s[/75%],[50%]65s[/50%],[50%]54s[/50%],[30%]53s[/30%],[25%]43s[/25%]",
+          "marked_cells": [],
+          "palette": []
+        }
+      ]
+    }
+  ]
+}
