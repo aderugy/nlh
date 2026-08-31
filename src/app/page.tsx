@@ -21,12 +21,15 @@ export default function Home() {
           </span>
         </Link>
 
-        <span className="rounded-xl border border-dashed border-zinc-200 px-4 py-4 opacity-60 dark:border-zinc-800">
+        <Link
+          href="/ranges"
+          className="rounded-xl border border-zinc-200 px-4 py-4 dark:border-zinc-800"
+        >
           <span className="block font-medium">Range quiz</span>
           <span className="block text-sm text-zinc-500 dark:text-zinc-400">
-            Not built yet.
+            Pick a range, call each hand raise, freq or fold.
           </span>
-        </span>
+        </Link>
       </nav>
     </main>
   );
