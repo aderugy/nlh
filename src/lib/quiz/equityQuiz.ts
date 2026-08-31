@@ -9,7 +9,7 @@ import { buildComboTable, comboAtWeight } from "../equity/equity";
 import type { Card } from "../ranges/cards";
 import { type Hand, handOfCards } from "../ranges/hands";
 import { type Rng, mulberry32, randomInt } from "../rng";
-import { type Flop, TYPICAL_FLOPS } from "./flops";
+import { type Board, type Flop } from "./flops";
 
 export interface EquityQuestion {
   /** Hero's two specific cards. */
@@ -18,8 +18,8 @@ export interface EquityQuestion {
   hand: Hand;
   /** The flop this hand is played on. */
   flop: Flop;
-  /** Index into the flop set, so the board can be labelled. */
-  flopIndex: number;
+  /** Canonical code of the flop, so the board can be labelled, e.g. `"Ah 8s 4h"`. */
+  flopCode: string;
   heroRangeId: string;
   villainRangeId: string;
   /** Seed that produced this question. */
@@ -45,30 +45,31 @@ export function sampleCombo(
   return [table.a[index], table.b[index]];
 }
 
-/** Pick one of the 15 typical flops, uniformly. */
-export function sampleFlop(rng: Rng): number {
-  return randomInt(rng, TYPICAL_FLOPS.length);
+/** Pick one of the session's boards, uniformly. */
+export function sampleBoard(boards: readonly Board[], rng: Rng): Board {
+  return boards[randomInt(rng, boards.length)];
 }
 
 export function generateEquityQuestion(
   heroWeights: ReadonlyMap<Hand, number>,
   heroRangeId: string,
   villainRangeId: string,
+  boards: readonly Board[],
   seed: number,
 ): EquityQuestion | null {
+  if (boards.length === 0) return null;
   const rng = mulberry32(seed);
-  const flopIndex = sampleFlop(rng);
-  const flop = TYPICAL_FLOPS[flopIndex];
+  const board = sampleBoard(boards, rng);
 
   // Hero cannot hold a card that is on the board.
-  const hero = sampleCombo(heroWeights, flop, rng);
+  const hero = sampleCombo(heroWeights, board.flop, rng);
   if (!hero) return null;
 
   return {
     hero,
     hand: handOfCards(hero[0], hero[1]),
-    flop,
-    flopIndex,
+    flop: board.flop,
+    flopCode: board.code,
     heroRangeId,
     villainRangeId,
     seed,

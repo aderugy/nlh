@@ -12,6 +12,7 @@
 import type { EquityResult } from "../equity/equity";
 import type { Hand } from "../ranges/hands";
 import { mulberry32 } from "../rng";
+import { type Board, FLOP_LABELS, boardFromCode } from "./flops";
 import { type EquityGrade, type EquityQuestion, generateEquityQuestion, gradeEquityGuess } from "./equityQuiz";
 
 export interface EquitySessionConfig {
@@ -21,6 +22,12 @@ export interface EquitySessionConfig {
   tolerance: number;
   /** How many hands this session deals. */
   handCount: number;
+  /**
+   * Canonical codes of the flops this session deals from, one drawn uniformly
+   * per hand. Defaults to all 15 typical flops ({@link DEFAULT_BOARDS}); narrow
+   * it to a single code to drill one board, or add custom codes to the pool.
+   */
+  boards: string[];
 }
 
 export interface EquitySession {
@@ -33,6 +40,9 @@ export const MIN_HANDS = 1;
 export const MAX_HANDS = 100;
 export const DEFAULT_HANDS = 10;
 export const DEFAULT_TOLERANCE = 5;
+
+/** The default board pool: all 15 typical flops. */
+export const DEFAULT_BOARDS: readonly string[] = FLOP_LABELS;
 
 /** Attempts to avoid repeating the same combo on the same flop before giving up. */
 const DEDUPE_ATTEMPTS = 25;
@@ -50,6 +60,20 @@ export function buildSession(
   config: EquitySessionConfig,
   seed: number,
 ): EquitySession | null {
+  // Parse the selected codes into boards once. Unparseable codes are dropped;
+  // an empty pool (nothing selected, or all invalid) means there is nothing to
+  // deal, so the session fails to build rather than dealing from a silent default.
+  const boards: Board[] = [];
+  const seenBoards = new Set<string>();
+  for (const code of config.boards) {
+    const board = boardFromCode(code);
+    if (board && !seenBoards.has(board.code)) {
+      seenBoards.add(board.code);
+      boards.push(board);
+    }
+  }
+  if (boards.length === 0) return null;
+
   const rng = mulberry32(seed);
   const questions: EquityQuestion[] = [];
   const seen = new Set<string>();
@@ -63,10 +87,11 @@ export function buildSession(
         heroWeights,
         config.heroRangeId,
         config.villainRangeId,
+        boards,
         (rng() * 0x100000000) >>> 0,
       );
       if (!candidate) return null; // Hero's range has nothing to deal.
-      const key = `${candidate.hero[0]}-${candidate.hero[1]}@${candidate.flopIndex}`;
+      const key = `${candidate.hero[0]}-${candidate.hero[1]}@${candidate.flopCode}`;
       question = candidate;
       if (!seen.has(key)) {
         seen.add(key);

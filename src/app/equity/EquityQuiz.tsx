@@ -7,6 +7,7 @@ import { useEquitySolver } from "@/lib/equity/useEquitySolver";
 import { parseRange } from "@/lib/ranges/parseRange";
 import { type RangeEntry, entryLabel, groupEntries, isHeroGroup } from "@/lib/ranges/tree";
 import {
+  DEFAULT_BOARDS,
   DEFAULT_HANDS,
   DEFAULT_TOLERANCE,
   type EquitySession,
@@ -14,6 +15,7 @@ import {
   buildSession,
   summarizeSession,
 } from "@/lib/quiz/equitySession";
+import { normalizeFlopInput } from "@/lib/quiz/flops";
 import { randomSeed } from "@/lib/rng";
 
 import { QuestionCard } from "./QuestionCard";
@@ -33,8 +35,44 @@ export function EquityQuiz({ ranges }: EquityQuizProps) {
     villainRangeId: ranges.find((entry) => !isHeroGroup(entry.group))?.id ?? ranges[0]?.id ?? "",
     tolerance: DEFAULT_TOLERANCE,
     handCount: DEFAULT_HANDS,
+    boards: [...DEFAULT_BOARDS],
   }));
   const [configError, setConfigError] = useState<string | null>(null);
+
+  /**
+   * The full pool of boards on offer — the 15 typical flops plus any the user
+   * has added. Which of these are actually dealt is `config.boards`; this list
+   * lives above the config so a custom board survives reconfiguring between
+   * sessions. `addBoardError` reports a rejected custom-flop entry.
+   */
+  const [availableBoards, setAvailableBoards] = useState<string[]>(() => [...DEFAULT_BOARDS]);
+  const [addBoardError, setAddBoardError] = useState<string | null>(null);
+
+  const toggleBoard = useCallback((code: string) => {
+    setConfig((current) => {
+      const selected = current.boards.includes(code)
+        ? current.boards.filter((board) => board !== code)
+        : [...current.boards, code];
+      return { ...current, boards: selected };
+    });
+  }, []);
+
+  const setAllBoards = useCallback((selected: boolean) => {
+    setConfig((current) => ({ ...current, boards: selected ? [...availableBoards] : [] }));
+  }, [availableBoards]);
+
+  const addBoard = useCallback((raw: string) => {
+    const code = normalizeFlopInput(raw);
+    if (code === null) {
+      setAddBoardError('Enter a valid flop — three distinct cards, e.g. "Ah Ks 7d".');
+      return;
+    }
+    setAddBoardError(null);
+    setAvailableBoards((list) => (list.includes(code) ? list : [...list, code]));
+    setConfig((current) =>
+      current.boards.includes(code) ? current : { ...current, boards: [...current.boards, code] },
+    );
+  }, []);
 
   const [session, setSession] = useState<EquitySession | null>(null);
   const [guesses, setGuesses] = useState<(number | null)[]>([]);
@@ -51,6 +89,10 @@ export function EquityQuiz({ ranges }: EquityQuizProps) {
 
   const start = useCallback(
     (withConfig: EquitySessionConfig) => {
+      if (withConfig.boards.length === 0) {
+        setConfigError("Pick at least one board to deal from.");
+        return;
+      }
       const heroRange = parseRange(byId.get(withConfig.heroRangeId)?.range ?? "");
       const built = buildSession(heroRange, withConfig, randomSeed());
       if (!built) {
@@ -143,6 +185,11 @@ export function EquityQuiz({ ranges }: EquityQuizProps) {
         heroEntry={heroEntry}
         villainEntry={villainEntry}
         error={configError}
+        availableBoards={availableBoards}
+        onToggleBoard={toggleBoard}
+        onAddBoard={addBoard}
+        onSetAllBoards={setAllBoards}
+        addBoardError={addBoardError}
       />
     );
   }

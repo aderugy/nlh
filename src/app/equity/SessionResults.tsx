@@ -1,7 +1,6 @@
 "use client";
 
 import { PlayingCard } from "@/components/PlayingCard";
-import { FLOP_LABELS } from "@/lib/quiz/flops";
 import type { SessionRow, SessionSummary } from "@/lib/quiz/equitySession";
 
 interface SessionResultsProps {
@@ -114,7 +113,7 @@ function ResultRow({ row }: { row: SessionRow }) {
       </span>
 
       <span className="min-w-0 flex-1 text-xs text-zinc-500 dark:text-zinc-400">
-        <span className="block tabular-nums">{FLOP_LABELS[question.flopIndex]}</span>
+        <span className="block tabular-nums">{question.flopCode}</span>
         <span className="block tabular-nums text-zinc-400 dark:text-zinc-500">
           {question.hand}
         </span>

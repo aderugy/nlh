@@ -3,7 +3,6 @@
 import { type FormEvent, useState } from "react";
 
 import { PlayingCard } from "@/components/PlayingCard";
-import { FLOP_LABELS } from "@/lib/quiz/flops";
 import type { EquityQuestion } from "@/lib/quiz/equityQuiz";
 
 interface QuestionCardProps {
@@ -70,7 +69,7 @@ export function QuestionCard({
               ))}
             </div>
             <p className="text-xs tabular-nums text-zinc-500 dark:text-zinc-400">
-              flop · {FLOP_LABELS[question.flopIndex]}
+              flop · {question.flopCode}
             </p>
           </div>
 

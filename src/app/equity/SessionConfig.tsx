@@ -3,6 +3,7 @@
 import { useState } from "react";
 
 import { RangeGrid } from "@/components/RangeGrid";
+import { isRedSuit, cardLabel, parseCard, suitOf } from "@/lib/ranges/cards";
 import { rangePercent } from "@/lib/ranges/hands";
 import { type RangeEntry, entryLabel } from "@/lib/ranges/tree";
 import {
@@ -22,6 +23,12 @@ interface SessionConfigProps {
   heroEntry: RangeEntry | undefined;
   villainEntry: RangeEntry | undefined;
   error: string | null;
+  /** Every board on offer — the 15 typical flops plus any custom ones added. */
+  availableBoards: string[];
+  onToggleBoard: (code: string) => void;
+  onAddBoard: (raw: string) => void;
+  onSetAllBoards: (selected: boolean) => void;
+  addBoardError: string | null;
 }
 
 export function SessionConfig({
@@ -34,6 +41,11 @@ export function SessionConfig({
   heroEntry,
   villainEntry,
   error,
+  availableBoards,
+  onToggleBoard,
+  onAddBoard,
+  onSetAllBoards,
+  addBoardError,
 }: SessionConfigProps) {
   const [showPreview, setShowPreview] = useState(false);
 
@@ -111,6 +123,15 @@ export function SessionConfig({
         </label>
       </div>
 
+      <BoardPicker
+        boards={availableBoards}
+        selected={config.boards}
+        onToggle={onToggleBoard}
+        onSetAll={onSetAllBoards}
+        onAdd={onAddBoard}
+        addError={addBoardError}
+      />
+
       {error && (
         <p className="rounded-lg bg-rose-50 px-3 py-2 text-sm text-rose-700 dark:bg-rose-950/40 dark:text-rose-300">
           {error}
@@ -146,6 +167,137 @@ export function SessionConfig({
         </div>
       )}
     </form>
+  );
+}
+
+interface BoardPickerProps {
+  boards: string[];
+  selected: string[];
+  onToggle: (code: string) => void;
+  onSetAll: (selected: boolean) => void;
+  onAdd: (raw: string) => void;
+  addError: string | null;
+}
+
+/**
+ * Choose which flops the session deals from. Every board is a toggle; the
+ * session draws uniformly from the selected set, so selecting exactly one board
+ * trains that single texture. Custom flops are added to the pool below.
+ */
+function BoardPicker({ boards, selected, onToggle, onSetAll, onAdd, addError }: BoardPickerProps) {
+  const [draft, setDraft] = useState("");
+  const selectedSet = new Set(selected);
+
+  const add = () => {
+    onAdd(draft);
+    setDraft("");
+  };
+
+  return (
+    <div className="flex flex-col gap-2">
+      <div className="flex items-baseline justify-between text-sm">
+        <span className="text-zinc-600 dark:text-zinc-300">Boards</span>
+        <span className="flex items-center gap-2 text-xs text-zinc-400">
+          <span className="tabular-nums">{selected.length} selected</span>
+          <button
+            type="button"
+            onClick={() => onSetAll(true)}
+            className="underline hover:text-zinc-600 dark:hover:text-zinc-200"
+          >
+            All
+          </button>
+          <button
+            type="button"
+            onClick={() => onSetAll(false)}
+            className="underline hover:text-zinc-600 dark:hover:text-zinc-200"
+          >
+            None
+          </button>
+        </span>
+      </div>
+
+      <p className="text-xs text-zinc-400 dark:text-zinc-500">
+        One flop is drawn at random per hand from the boards you pick. Select a single board to drill it.
+      </p>
+
+      <div className="flex flex-wrap gap-1.5">
+        {boards.map((code) => {
+          const on = selectedSet.has(code);
+          return (
+            <button
+              key={code}
+              type="button"
+              aria-pressed={on}
+              onClick={() => onToggle(code)}
+              className={[
+                "rounded-lg border px-2 py-1.5 text-sm transition-colors",
+                on
+                  ? "border-emerald-500 bg-emerald-50 dark:border-emerald-700 dark:bg-emerald-950/40"
+                  : "border-zinc-300 text-zinc-400 dark:border-zinc-700 dark:text-zinc-500",
+              ].join(" ")}
+            >
+              <FlopText code={code} muted={!on} />
+            </button>
+          );
+        })}
+      </div>
+
+      <div className="flex gap-2">
+        <input
+          type="text"
+          value={draft}
+          onChange={(event) => setDraft(event.target.value)}
+          onKeyDown={(event) => {
+            if (event.key === "Enter") {
+              event.preventDefault();
+              add();
+            }
+          }}
+          placeholder="Add a flop, e.g. Ah Ks 7d"
+          aria-label="Add a custom flop"
+          className="min-w-0 flex-1 rounded-md border border-zinc-300 bg-transparent px-3 py-2 text-sm dark:border-zinc-700"
+        />
+        <button
+          type="button"
+          onClick={add}
+          disabled={draft.trim() === ""}
+          className="rounded-md border border-zinc-300 px-3 py-2 text-sm disabled:opacity-40 dark:border-zinc-700"
+        >
+          Add
+        </button>
+      </div>
+
+      {addError && (
+        <p className="text-xs text-rose-600 dark:text-rose-400">{addError}</p>
+      )}
+    </div>
+  );
+}
+
+/** A flop code rendered with suit symbols and red/black suit colours. */
+function FlopText({ code, muted = false }: { code: string; muted?: boolean }) {
+  return (
+    <span className="inline-flex gap-1 font-medium tabular-nums">
+      {code.split(" ").map((token, index) => {
+        const card = parseCard(token);
+        if (card === null) return <span key={index}>{token}</span>;
+        const red = isRedSuit(suitOf(card));
+        return (
+          <span
+            key={index}
+            className={
+              muted
+                ? "text-zinc-400 dark:text-zinc-500"
+                : red
+                  ? "text-rose-600 dark:text-rose-400"
+                  : "text-zinc-800 dark:text-zinc-100"
+            }
+          >
+            {cardLabel(card)}
+          </span>
+        );
+      })}
+    </span>
   );
 }
 
