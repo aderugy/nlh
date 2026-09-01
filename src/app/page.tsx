@@ -30,6 +30,16 @@ export default function Home() {
             Pick a range, call each hand raise, freq or fold.
           </span>
         </Link>
+
+        <Link
+          href="/math"
+          className="rounded-xl border border-zinc-200 px-4 py-4 dark:border-zinc-800"
+        >
+          <span className="block font-medium">Poker maths</span>
+          <span className="block text-sm text-zinc-500 dark:text-zinc-400">
+            MDF, pot odds, outs-to-turn and optimal bluff frequency.
+          </span>
+        </Link>
       </nav>
     </main>
   );
